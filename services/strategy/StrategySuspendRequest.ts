@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "tradex-models-common";
+import {BaseRequest} from "../common";
 
 /**
  * The providers can suspend their strategy if it is active

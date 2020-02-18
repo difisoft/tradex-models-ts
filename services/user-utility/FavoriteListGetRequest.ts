@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {RequestHeader} from "tradex-models-common";
+import {RequestHeader} from "../common";
 
 /**
  * This is a request to get favoriteList

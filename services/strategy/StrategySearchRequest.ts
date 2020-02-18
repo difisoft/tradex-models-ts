@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "tradex-models-common";
+import {BaseRequest} from "../common";
 
 /**
  * Request for searching Strategy

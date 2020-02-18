@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {Menu} from "tradex-models-configuration";
+import {Menu} from "../configuration";
 
 /**
  * request for query list of holiday

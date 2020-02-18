@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {Token} from "tradex-models-common";
+import {Token} from "../common";
 
 /**
  * header for each request
