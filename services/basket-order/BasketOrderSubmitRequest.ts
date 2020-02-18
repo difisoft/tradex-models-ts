@@ -67,23 +67,23 @@ export type BasketOrderSubmitRequest = BaseRequest & {
       /**
        * quantity
        */
-      quantity?: number;
+      quantity: number;
       /**
        * price
        */
-      price?: number;
+      price: number;
       /**
        * price type
        */
-      priceType?: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
+      priceType: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
       /**
        * rounding
        */
-      rounding?: "UP" | "DOWN";
+      rounding: "UP" | "DOWN";
       /**
        * sell buy type
        */
-      sellBuyType?: "SELL" | "BUY";
+      sellBuyType: "SELL" | "BUY";
       [k: string]: any;
     },
     ...({
@@ -98,23 +98,23 @@ export type BasketOrderSubmitRequest = BaseRequest & {
       /**
        * quantity
        */
-      quantity?: number;
+      quantity: number;
       /**
        * price
        */
-      price?: number;
+      price: number;
       /**
        * price type
        */
-      priceType?: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
+      priceType: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
       /**
        * rounding
        */
-      rounding?: "UP" | "DOWN";
+      rounding: "UP" | "DOWN";
       /**
        * sell buy type
        */
-      sellBuyType?: "SELL" | "BUY";
+      sellBuyType: "SELL" | "BUY";
       [k: string]: any;
     })[]
   ];
