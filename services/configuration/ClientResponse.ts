@@ -12,10 +12,6 @@ import {LoginMethodResponse} from "./LoginMethodResponse";
  */
 export interface ClientResponse {
   /**
-   * a new last queried time.
-   */
-  lastQueriedTime: string;
-  /**
    * id
    */
   id: number;
