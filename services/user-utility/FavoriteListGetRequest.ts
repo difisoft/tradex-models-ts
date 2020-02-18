@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {RequestHeader} from "../common";
-
 /**
  * This is a request to get favoriteList
  */

@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * This is a request of adding new view of a strategy
  */

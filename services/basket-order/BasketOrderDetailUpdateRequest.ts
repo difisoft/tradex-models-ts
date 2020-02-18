@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * basketOrderDetailUpdateRequest schema
  */
@@ -30,7 +28,7 @@ export type BasketOrderDetailUpdateRequest = BaseRequest & {
       volume: number;
       [k: string]: any;
     },
-    ...{
+    ...({
       /**
        * symbol code
        */
@@ -40,7 +38,7 @@ export type BasketOrderDetailUpdateRequest = BaseRequest & {
        */
       volume: number;
       [k: string]: any;
-    }[]
+    })[]
   ];
   [k: string]: any;
 };

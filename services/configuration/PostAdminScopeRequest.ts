@@ -5,9 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
-import {ForwardData} from "../common";
+import {ForwardData} from "tradex-models-common";
 
 /**
  * request for query list of holiday
@@ -30,27 +28,5 @@ export type PostAdminScopeRequest = BaseRequest & {
    * list of scope group that scope belong to
    */
   scopeGroupIds?: number[];
-  [k: string]: any;
-};
-/**
- * base request for all other
- */
-export type ForwardData = ForwardConnection | ForwardService;
-/**
- * base request for all other
- */
-export type ForwardConnection = ForwardCommon & {
-  type?: "SERVICE_STRING_MAPPING" | "SERVICE_FUNCTION_MAPPING";
-  uri_mapping?: {
-    [k: string]: any;
-  };
-  [k: string]: any;
-};
-/**
- * base request for all other
- */
-export type ForwardService = ForwardCommon & {
-  service?: string;
-  uri?: string;
   [k: string]: any;
 };

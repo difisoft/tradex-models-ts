@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * basketOrderSubmitRequest schema
  */
@@ -86,7 +84,7 @@ export type BasketOrderSubmitRequest = BaseRequest & {
       sellBuyType: "SELL" | "BUY";
       [k: string]: any;
     },
-    ...{
+    ...({
       /**
        * symbol code
        */
@@ -116,7 +114,7 @@ export type BasketOrderSubmitRequest = BaseRequest & {
        */
       sellBuyType: "SELL" | "BUY";
       [k: string]: any;
-    }[]
+    })[]
   ];
   [k: string]: any;
 };

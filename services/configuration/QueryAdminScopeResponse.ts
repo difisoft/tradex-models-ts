@@ -5,30 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {ScopeResponse} from "./ScopeResponse";
+import {ScopeResponse} from "tradex-models-configuration";
 
-/**
- * base request for all other
- */
-export type ForwardData = ForwardConnection | ForwardService;
-/**
- * base request for all other
- */
-export type ForwardConnection = ForwardCommon & {
-  type?: "SERVICE_STRING_MAPPING" | "SERVICE_FUNCTION_MAPPING";
-  uri_mapping?: {
-    [k: string]: any;
-  };
-  [k: string]: any;
-};
-/**
- * base request for all other
- */
-export type ForwardService = ForwardCommon & {
-  service?: string;
-  uri?: string;
-  [k: string]: any;
-};
 /**
  * request for query list of holiday
  */

@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * indexStockListRequest schema
  */

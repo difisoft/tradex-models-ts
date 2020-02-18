@@ -5,9 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
-import {Language} from "../common";
+import {Language} from "tradex-models-common";
 
 /**
  * request for query list of holiday
@@ -20,7 +18,3 @@ export type PutLocaleKeyTranslateRequest = BaseRequest & {
   lang?: Language;
   [k: string]: any;
 };
-/**
- * base request for all other
- */
-export type Language = "vi" | "en" | "kr" | "cn" | "th";

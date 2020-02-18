@@ -11,8 +11,7 @@
   "author": "hiepnguyen@techx.vn",
   "license": "ISC",
   "dependencies": {
-    "tslib": "^1.10.0",
-    "tradex-models-common": "git+https://developer:MTU1ODU1NzAyMzA3Oo3soYhfp79LWp%2FuRR9MHrQXGbjj@bitbucket.tradex.vn/scm/ts/tradex-models-common-ts.git"
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@types/node": "^10.14.13",
