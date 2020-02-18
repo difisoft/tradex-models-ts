@@ -11,7 +11,3 @@ import {ClientResponse} from "./ClientResponse";
  * request for query list of holiday
  */
 export type QueryClientByIdResponse = ClientResponse;
-/**
- * request for query list of holiday
- */
-export type QuerySystemLoginMethodResponse = LoginMethodResponse;

@@ -5,12 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {QuerySystemLoginMethodResponse} from "./QuerySystemLoginMethodResponse";
-
-/**
- * request for query list of holiday
- */
-export type QuerySystemLoginMethodResponse = LoginMethodResponse;
+import {LoginMethodResponse} from "./LoginMethodResponse";
 
 /**
  * request for query list of holiday
@@ -51,6 +46,6 @@ export interface ClientResponse {
   /**
    * login methods available for client
    */
-  loginMethods?: QuerySystemLoginMethodResponse[];
+  loginMethods?: LoginMethodResponse[];
   [k: string]: any;
 }
