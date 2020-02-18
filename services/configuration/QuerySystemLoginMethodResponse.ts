@@ -10,4 +10,4 @@ import {LoginMethodResponse} from "./LoginMethodResponse";
 /**
  * request for query list of holiday
  */
-export type QuerySystemLoginMethodResponse = LoginMethodResponse;
+export type QuerySystemLoginMethodResponse = LoginMethodResponse[];
