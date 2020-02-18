@@ -1,21 +1,21 @@
 
-import * as TradexModelsCommon from './services/tradex-models-common-ts';
+import * as TradexModelsCommon from './services/common';
             
-import * as TradexModelsBasketOrder from './services/tradex-models-basket-order-ts';
+import * as TradexModelsBasketOrder from './services/basket-order';
             
-import * as TradexModelsBusinessInfo from './services/tradex-models-business-info-ts';
+import * as TradexModelsBusinessInfo from './services/business-info';
             
-import * as TradexModelsConfiguration from './services/tradex-models-configuration-ts';
+import * as TradexModelsConfiguration from './services/configuration';
             
-import * as TradexModelsMarket from './services/tradex-models-market-ts';
+import * as TradexModelsMarket from './services/market';
             
-import * as TradexModelsOrder from './services/tradex-models-order-ts';
+import * as TradexModelsOrder from './services/order';
             
-import * as TradexModelsStrategy from './services/tradex-models-strategy-ts';
+import * as TradexModelsStrategy from './services/strategy';
             
-import * as TradexModelsUser from './services/tradex-models-user-ts';
+import * as TradexModelsUser from './services/user';
             
-import * as TradexModelsUserUtility from './services/tradex-models-user-utility-ts';
+import * as TradexModelsUserUtility from './services/user-utility';
             
 
 export {
