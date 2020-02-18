@@ -5,6 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {ForwardCommon} from "tradex-models-common";
+
 /**
  * base request for all other
  */

@@ -5,6 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {LocaleKey} from "tradex-models-configuration";
+
 /**
  * request for query list of holiday
  */

@@ -5,6 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {ScopeResponse} from "tradex-models-configuration";
+
 /**
  * request for query list of holiday
  */

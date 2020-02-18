@@ -5,6 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {BaseRequest} from "tradex-models-common";
+
 import {ForwardData} from "tradex-models-common";
 
 /**

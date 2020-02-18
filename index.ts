@@ -1,42 +1,42 @@
 
-import * as TradexModelsUserUtility from './services/user-utility';
-            
-import * as TradexModelsUser from './services/user';
-            
-import * as TradexModelsStrategy from './services/strategy';
-            
-import * as TradexModelsOrder from './services/order';
-            
-import * as TradexModelsMarket from './services/market';
-            
-import * as TradexModelsBusinessInfo from './services/business-info';
+import * as TradexModelsCommon from './services/common';
             
 import * as TradexModelsBasketOrder from './services/basket-order';
             
-import * as TradexModelsCommon from './services/common';
+import * as TradexModelsBusinessInfo from './services/business-info';
             
 import * as TradexModelsConfiguration from './services/configuration';
+            
+import * as TradexModelsMarket from './services/market';
+            
+import * as TradexModelsOrder from './services/order';
+            
+import * as TradexModelsStrategy from './services/strategy';
+            
+import * as TradexModelsUser from './services/user';
+            
+import * as TradexModelsUserUtility from './services/user-utility';
             
 
 export {
 
-TradexModelsUserUtility,
-            
-TradexModelsUser,
-            
-TradexModelsStrategy,
-            
-TradexModelsOrder,
-            
-TradexModelsMarket,
-            
-TradexModelsBusinessInfo,
+TradexModelsCommon,
             
 TradexModelsBasketOrder,
             
-TradexModelsCommon,
+TradexModelsBusinessInfo,
             
 TradexModelsConfiguration,
+            
+TradexModelsMarket,
+            
+TradexModelsOrder,
+            
+TradexModelsStrategy,
+            
+TradexModelsUser,
+            
+TradexModelsUserUtility,
             
 }
 
