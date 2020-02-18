@@ -10,26 +10,19 @@
  */
 export type QueryLocaleResponse = {
   /**
+   * id
+   */
+  id?: number;
+  /**
    * service name
    */
   msName?: string;
   /**
    * service name
    */
-  latestVersion?: string;
-  /**
-   * service name
-   */
-  lang?: string;
-  /**
-   * service name
-   */
-  files?: {
+  namespaces?: {
+    id?: number;
     namespace?: string;
-    url?: string;
-    content?: {
-      [k: string]: any;
-    };
     [k: string]: any;
   }[];
   [k: string]: any;
