@@ -134,8 +134,8 @@ import {
   QueryClientResponse,
 } from "./QueryClientResponse";
 import {
-  QueryInteresrInfoResponse,
-} from "./QueryInteresrInfoResponse";
+  QueryInterestInfoResponse,
+} from "./QueryInterestInfoResponse";
 import {
   QueryLocaleKeyByNameSpaceRequest,
 } from "./QueryLocaleKeyByNameSpaceRequest";
@@ -249,7 +249,7 @@ export {
   QueryClientByIdResponse,
   QueryClientRequest,
   QueryClientResponse,
-  QueryInteresrInfoResponse,
+  QueryInterestInfoResponse,
   QueryLocaleKeyByNameSpaceRequest,
   QueryLocaleKeyByNameSpaceResponse,
   QueryLocaleRequest,

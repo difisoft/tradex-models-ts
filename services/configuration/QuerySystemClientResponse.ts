@@ -10,8 +10,13 @@ import {ClientResponse} from "./ClientResponse";
 /**
  * request for query list of holiday
  */
-export type QuerySystemClientResponse = ClientResponse;
+export type QuerySystemLoginMethodResponse = LoginMethodResponse;
+
 /**
  * request for query list of holiday
  */
-export type QuerySystemLoginMethodResponse = LoginMethodResponse;
+export interface QuerySystemClientResponse {
+  clients?: ClientResponse[];
+  lastQueriedTime?: string;
+  [k: string]: any;
+}

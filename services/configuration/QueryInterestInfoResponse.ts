@@ -8,7 +8,7 @@
 /**
  * request for query list of holiday
  */
-export type QueryInteresrInfoResponse = {
+export type QueryInterestInfoResponse = {
   id: number;
   /**
    * yyyyMMdd
