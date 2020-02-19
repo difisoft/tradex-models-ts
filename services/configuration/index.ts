@@ -47,6 +47,24 @@ import {
   Menu,
 } from "./Menu";
 import {
+  OpenApiDeleteRequest,
+} from "./OpenApiDeleteRequest";
+import {
+  OpenApiDeleteResponse,
+} from "./OpenApiDeleteResponse";
+import {
+  OpenApiListRequest,
+} from "./OpenApiListRequest";
+import {
+  OpenApiListResponse,
+} from "./OpenApiListResponse";
+import {
+  OpenApiUpdateRequest,
+} from "./OpenApiUpdateRequest";
+import {
+  OpenApiUpdateResponse,
+} from "./OpenApiUpdateResponse";
+import {
   PostAdminScopeGroupRequest,
 } from "./PostAdminScopeGroupRequest";
 import {
@@ -220,6 +238,12 @@ export {
   LocaleKey,
   LoginMethodResponse,
   Menu,
+  OpenApiDeleteRequest,
+  OpenApiDeleteResponse,
+  OpenApiListRequest,
+  OpenApiListResponse,
+  OpenApiUpdateRequest,
+  OpenApiUpdateResponse,
   PostAdminScopeGroupRequest,
   PostAdminScopeGroupResponse,
   PostAdminScopeRequest,

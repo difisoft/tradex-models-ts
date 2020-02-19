@@ -7,7 +7,7 @@ import * as TradexModelsBusinessInfo from './services/business-info';
             
 import * as TradexModelsConfiguration from './services/configuration';
             
-import * as TradexModelsMarket from './services/market';
+import * as TradexModelsMarket from './services/configuration';
             
 import * as TradexModelsOrder from './services/order';
             
