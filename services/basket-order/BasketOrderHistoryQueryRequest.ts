@@ -27,5 +27,17 @@ export type BasketOrderHistoryQueryRequest = BaseRequest & {
    * to Date (yyyyMMdd)
    */
   toDate?: string | null;
+  /**
+   * basket order name
+   */
+  name?: string | null;
+  /**
+   * next key, to query next (query these basketOrders has id < lastBasketOrderId)
+   */
+  lastBasketOrderId?: number | null;
+  /**
+   * The number of record that user want to see at each page
+   */
+  fetchCount?: number | null;
   [k: string]: any;
 };
