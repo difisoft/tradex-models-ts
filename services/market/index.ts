@@ -17,6 +17,12 @@ import {
   FixSecurityListQueryResponse,
 } from "./FixSecurityListQueryResponse";
 import {
+  ForeignerDailyRequest,
+} from "./ForeignerDailyRequest";
+import {
+  ForeignerDailyResponse,
+} from "./ForeignerDailyResponse";
+import {
   IndexStockListRequest,
 } from "./IndexStockListRequest";
 import {
@@ -52,12 +58,6 @@ import {
 import {
   StockRankingUpDownResponse,
 } from "./StockRankingUpDownResponse";
-import {
-  SymbolForeignerDailyRequest,
-} from "./SymbolForeignerDailyRequest";
-import {
-  SymbolForeignerDailyResponse,
-} from "./SymbolForeignerDailyResponse";
 import {
   SymbolInfoRequest,
 } from "./SymbolInfoRequest";
@@ -156,6 +156,8 @@ export {
   EtfNavDailyResponse,
   FixSecurityListQueryRequest,
   FixSecurityListQueryResponse,
+  ForeignerDailyRequest,
+  ForeignerDailyResponse,
   IndexStockListRequest,
   IndexStockListResponse,
   MarketSessionStatusRequest,
@@ -168,8 +170,6 @@ export {
   StockRankingTradeResponse,
   StockRankingUpDownRequest,
   StockRankingUpDownResponse,
-  SymbolForeignerDailyRequest,
-  SymbolForeignerDailyResponse,
   SymbolInfoRequest,
   SymbolInfoResponse,
   SymbolLatestRequest,

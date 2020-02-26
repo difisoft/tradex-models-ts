@@ -6,9 +6,9 @@
  */
 
 /**
- * symbolForeignerDailyResponse schema
+ * foreignerDailyResponse schema
  */
-export interface SymbolForeignerDailyResponse {
+export interface ForeignerDailyResponse {
   /**
    * ForeignerBuyVolume
    */

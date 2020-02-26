@@ -8,9 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * symbolForeignerDailyRequest schema
+ * foreignerDailyRequest schema
  */
-export type SymbolForeignerDailyRequest = BaseRequest & {
+export type ForeignerDailyRequest = BaseRequest & {
   /**
    * symbol code
    */
