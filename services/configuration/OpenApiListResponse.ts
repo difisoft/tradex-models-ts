@@ -12,19 +12,17 @@ export interface OpenApiListResponse {
   /**
    * scope Id
    */
-  scopeId?: number;
+  id?: number;
   /**
    * summary
    */
-  summary?: {
-    [k: string]: any;
-  };
+  summary?: string;
   /**
    * parameters
    */
   parameters?: {
     [k: string]: any;
-  };
+  }[];
   /**
    * request Body
    */
@@ -42,10 +40,14 @@ export interface OpenApiListResponse {
    */
   security?: {
     [k: string]: any;
-  };
+  }[];
   /**
-   * tag
+   * tags
    */
-  tag?: string;
+  tags?: string[];
+  /**
+   * description
+   */
+  description?: string;
   [k: string]: any;
 }

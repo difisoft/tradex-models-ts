@@ -53,6 +53,12 @@ import {
   OpenApiDeleteResponse,
 } from "./OpenApiDeleteResponse";
 import {
+  OpenApiFileRequest,
+} from "./OpenApiFileRequest";
+import {
+  OpenApiFileResponse,
+} from "./OpenApiFileResponse";
+import {
   OpenApiListRequest,
 } from "./OpenApiListRequest";
 import {
@@ -240,6 +246,8 @@ export {
   Menu,
   OpenApiDeleteRequest,
   OpenApiDeleteResponse,
+  OpenApiFileRequest,
+  OpenApiFileResponse,
   OpenApiListRequest,
   OpenApiListResponse,
   OpenApiUpdateRequest,
