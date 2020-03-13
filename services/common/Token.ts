@@ -15,6 +15,10 @@ export interface Token {
   userId?: null | number;
   serviceCode?: null | string;
   connectionId?: null | string;
+  /**
+   * only use for vcsc rest
+   */
+  sessionId?: null | string;
   serviceId?: null | string;
   serviceName?: null | string;
   clientId?: null | number;
