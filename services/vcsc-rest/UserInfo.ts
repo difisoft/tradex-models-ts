@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {Account} from "../vcsc-rest";
+import {Account} from "./Account";
 
 /**
  * user info in token

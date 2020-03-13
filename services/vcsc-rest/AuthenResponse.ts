@@ -5,9 +5,9 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {UserData} from "../vcsc-rest";
+import {UserData} from "./UserData";
 
-import {UserInfo} from "../vcsc-rest";
+import {UserInfo} from "./UserInfo";
 
 /**
  * authenResponse schema

@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {ScopeGroupResponse} from "../configuration";
+import {ScopeGroupResponse} from "./ScopeGroupResponse";
 
 /**
  * request for query list of holiday

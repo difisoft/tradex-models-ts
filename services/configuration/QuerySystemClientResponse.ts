@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {ClientResponse} from "../configuration";
+import {ClientResponse} from "./ClientResponse";
 
 /**
  * request for query list of holiday

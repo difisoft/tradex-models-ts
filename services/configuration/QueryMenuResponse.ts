@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {Menu} from "../configuration";
+import {Menu} from "./Menu";
 
 /**
  * request for query list of holiday

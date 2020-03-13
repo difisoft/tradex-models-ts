@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {ForwardCommon} from "../common";
+import {ForwardCommon} from "./ForwardCommon";
 
 /**
  * base request for all other

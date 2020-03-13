@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {AccountSub} from "../vcsc-rest";
+import {AccountSub} from "./AccountSub";
 
 /**
  * account

@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {RequestHeader} from "../common";
+import {RequestHeader} from "./RequestHeader";
 
 /**
  * base request for all other

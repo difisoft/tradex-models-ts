@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {Token} from "../common";
+import {Token} from "./Token";
 
 /**
  * header for each request

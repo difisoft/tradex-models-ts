@@ -5,9 +5,9 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {ForwardConnection} from "../common";
+import {ForwardConnection} from "./ForwardConnection";
 
-import {ForwardService} from "../common";
+import {ForwardService} from "./ForwardService";
 
 /**
  * base request for all other

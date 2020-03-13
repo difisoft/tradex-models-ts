@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {UserData} from "../common";
+import {UserData} from "./UserData";
 
 /**
  * A geographical coordinate
