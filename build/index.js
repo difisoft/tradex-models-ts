@@ -18,4 +18,6 @@ const TradexModelsUser = require("./services/user");
 exports.TradexModelsUser = TradexModelsUser;
 const TradexModelsUserUtility = require("./services/user-utility");
 exports.TradexModelsUserUtility = TradexModelsUserUtility;
+const TradexModelsVcscRest = require("./services/vcsc-rest");
+exports.TradexModelsVcscRest = TradexModelsVcscRest;
 //# sourceMappingURL=index.js.map

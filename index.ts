@@ -17,6 +17,8 @@ import * as TradexModelsUser from './services/user';
             
 import * as TradexModelsUserUtility from './services/user-utility';
             
+import * as TradexModelsVcscRest from './services/vcsc-rest';
+            
 
 export {
 
@@ -37,6 +39,8 @@ TradexModelsStrategy,
 TradexModelsUser,
             
 TradexModelsUserUtility,
+            
+TradexModelsVcscRest,
             
 }
 
