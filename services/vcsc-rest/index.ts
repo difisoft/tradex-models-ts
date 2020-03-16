@@ -20,6 +20,12 @@ import {
   Bank,
 } from "./Bank";
 import {
+  OrderHistoryRequest,
+} from "./OrderHistoryRequest";
+import {
+  OrderHistoryResponse,
+} from "./OrderHistoryResponse";
+import {
   UserData,
 } from "./UserData";
 import {
@@ -40,6 +46,8 @@ export {
   AuthenRequest,
   AuthenResponse,
   Bank,
+  OrderHistoryRequest,
+  OrderHistoryResponse,
   UserData,
   UserInfo,
   VerifyOtpRequest,
