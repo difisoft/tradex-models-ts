@@ -12,7 +12,7 @@ export interface AccountBalanceInfoResponse {
   /**
    * net Asset Value
    */
-  netAssetValue?: string;
+  netAssetValue?: number;
   /**
    * current Cash
    */

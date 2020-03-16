@@ -2,11 +2,11 @@ import {
   Account,
 } from "./Account";
 import {
-  AccountBalanceInfoResponse,
-} from "./AccountBalanceInfoResponse";
-import {
   AccountBalanceRequest,
 } from "./AccountBalanceRequest";
+import {
+  AccountBalanceInfoResponse,
+} from "./AccountBalanceInfoResponse";
 import {
   AccountSub,
 } from "./AccountSub";
@@ -28,8 +28,8 @@ import {
 
 export {
   Account,
-  AccountBalanceInfoResponse,
   AccountBalanceRequest,
+  AccountBalanceInfoResponse,
   AccountSub,
   AuthenRequest,
   AuthenResponse,
