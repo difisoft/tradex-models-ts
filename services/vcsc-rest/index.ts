@@ -25,6 +25,12 @@ import {
 import {
   UserInfo,
 } from "./UserInfo";
+import {
+  VerifyOtpRequest,
+} from "./VerifyOtpRequest";
+import {
+  VerifyOtpResponse,
+} from "./VerifyOtpResponse";
 
 export {
   Account,
@@ -36,4 +42,6 @@ export {
   Bank,
   UserData,
   UserInfo,
+  VerifyOtpRequest,
+  VerifyOtpResponse,
 };
