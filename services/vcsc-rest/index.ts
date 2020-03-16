@@ -2,8 +2,8 @@ import {
   Account,
 } from "./Account";
 import {
-  AccountBalanceRequest,
-} from "./AccountBalanceRequest";
+  AccountBalanceInfoRequest,
+} from "./AccountBalanceInfoRequest";
 import {
   AccountBalanceInfoResponse,
 } from "./AccountBalanceInfoResponse";
@@ -28,7 +28,7 @@ import {
 
 export {
   Account,
-  AccountBalanceRequest,
+  AccountBalanceInfoRequest,
   AccountBalanceInfoResponse,
   AccountSub,
   AuthenRequest,

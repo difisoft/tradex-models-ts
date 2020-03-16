@@ -8,9 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * accountBalanceRequest schema
+ * accountBalanceInfoRequest schema
  */
-export type AccountBalanceRequest = BaseRequest & {
+export type AccountBalanceInfoRequest = BaseRequest & {
   /**
    * account number
    */
