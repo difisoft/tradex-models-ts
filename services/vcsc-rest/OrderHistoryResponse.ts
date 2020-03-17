@@ -12,23 +12,23 @@ export interface OrderHistoryResponse {
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber?: null | string;
   /**
    * Sub number
    */
-  subNumber?: string;
+  subNumber?: null | string;
   /**
    * Stock code
    */
-  stockCode?: string;
+  stockCode?: null | string;
   /**
    * Order date (YYYYmmdd)
    */
-  orderDate?: string;
+  orderDate?: null | string;
   /**
    * Order time (HHMMSS)
    */
-  orderTime?: string;
+  orderTime?: null | string;
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
@@ -56,31 +56,31 @@ export interface OrderHistoryResponse {
   /**
    * Order quantity
    */
-  orderQuantity?: number;
+  orderQuantity?: null | number;
   /**
    * Order price
    */
-  orderPrice?: number;
+  orderPrice?: null | number;
   /**
    * Order amount
    */
-  orderAmount?: number;
+  orderAmount?: null | number;
   /**
    * Matched quantity
    */
-  matchedQuantity?: number;
+  matchedQuantity?: null | number;
   /**
    * Matched price
    */
-  matchedPrice?: number;
+  matchedPrice?: null | number;
   /**
    * Matched amount
    */
-  matchedAmount?: number;
+  matchedAmount?: null | number;
   /**
    * Unmatched quantity
    */
-  unmatchedQuantity?: number;
+  unmatchedQuantity?: null | number;
   /**
    * Modify cancel type, [NORMAL, PARTIAL_CORRECTION, ALL_CORRECTION, PARTIAL_CANCEL, ALL_CANCEL]
    */
@@ -88,7 +88,7 @@ export interface OrderHistoryResponse {
   /**
    * Modify cancel quantity
    */
-  modifyCancelQuantity?: number;
+  modifyCancelQuantity?: null | number;
   /**
    * Order status, [RECEIPT, SEND, ORDER_CONFIRM, RECEIPT_CONFIRM, FULL_FILLED, PARTIAL_FILLED, REJECT]
    */
@@ -96,22 +96,22 @@ export interface OrderHistoryResponse {
   /**
    * Order number
    */
-  orderNumber?: string;
+  orderNumber?: null | string;
   /**
    * Original order number
    */
-  originalOrderNumber?: string;
+  originalOrderNumber?: null | string;
   /**
    * Username
    */
-  username?: string;
+  username?: null | string;
   /**
    * Branch code
    */
-  branchCode?: string;
+  branchCode?: null | string;
   /**
    * Bank name
    */
-  bankName?: string;
+  bankName?: null | string;
   [k: string]: any;
 }

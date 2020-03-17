@@ -8,13 +8,13 @@
 import {BaseRequest} from "../common";
 
 /**
- * orderHistoryRequest schema
+ * Account trading summary request schema
  */
-export type OrderHistoryRequest = BaseRequest & {
+export type AccountTradingSummaryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: null | string;
+  accountNumber?: null | string;
   /**
    * Sub number
    */
@@ -28,44 +28,32 @@ export type OrderHistoryRequest = BaseRequest & {
    */
   toDate?: null | string;
   /**
-   * Stock code
-   */
-  stockCode?: null | string;
-  /**
    * Sell buy type, [BUY, SELL, ALL]
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * Match type, [MATCHED, UNMATCHED, ALL]
+   * Market type, [HOSE, HNX, UPCOM, ALL]
    */
-  matchType?: null | ("MATCHED" | "UNMATCHED" | "ALL");
+  marketType?: null | ("HOSE" | "HNX" | "UPCOM" | "ALL");
   /**
-   * Sort type, [DESC, ASC]
+   * Stock code
    */
-  sortType?: null | ("DESC" | "ASC");
+  stockCode?: null | string;
   /**
-   * Last order date (YYYYmmdd)
+   * Last match date
    */
-  lastOrderDate?: null | string;
+  lastMatchDate?: null | string;
   /**
-   * Last branch code
+   * Last sell buy type
    */
-  lastBranchCode?: null | string;
+  lastSellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * Last order number
+   * Last stock code
    */
-  lastOrderNumber?: null | string;
-  /**
-   * Last match price
-   */
-  lastMatchPrice?: null | number;
+  lastStockCode?: null | string;
   /**
    * Fetch count
    */
   fetchCount?: null | number;
-  /**
-   * Market type, [HOSE, HNX, UPCOM, ALL]
-   */
-  marketType?: null | ("HOSE" | "HNX" | "UPCOM" | "ALL");
   [k: string]: any;
 };

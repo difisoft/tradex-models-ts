@@ -8,17 +8,17 @@
 import {BaseRequest} from "../common";
 
 /**
- * orderHistoryRequest schema
+ * Dr order stop history request schema
  */
-export type OrderHistoryRequest = BaseRequest & {
+export type DrOrderStopHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: null | string;
+  accountNumber?: null | string;
   /**
-   * Sub number
+   * Password
    */
-  subNumber?: null | string;
+  password?: null | string;
   /**
    * From date (YYYYmmdd)
    */
@@ -28,44 +28,52 @@ export type OrderHistoryRequest = BaseRequest & {
    */
   toDate?: null | string;
   /**
-   * Stock code
+   * Contact code
    */
-  stockCode?: null | string;
+  contactCode?: null | string;
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * Match type, [MATCHED, UNMATCHED, ALL]
+   * Order type
    */
-  matchType?: null | ("MATCHED" | "UNMATCHED" | "ALL");
+  orderType?: null | string;
   /**
-   * Sort type, [DESC, ASC]
+   * Validity
    */
-  sortType?: null | ("DESC" | "ASC");
+  validity?: null | string;
   /**
-   * Last order date (YYYYmmdd)
+   * Registered
    */
-  lastOrderDate?: null | string;
+  registered?: null | string;
   /**
-   * Last branch code
+   * Sent
    */
-  lastBranchCode?: null | string;
+  sent?: null | string;
   /**
-   * Last order number
+   * Branch code
    */
-  lastOrderNumber?: null | string;
+  branchCode?: null | string;
   /**
-   * Last match price
+   * Agency code
    */
-  lastMatchPrice?: null | number;
+  agencyCode?: null | string;
+  /**
+   * Last next key
+   */
+  lastNextKey?: null | string;
   /**
    * Fetch count
    */
   fetchCount?: null | number;
   /**
-   * Market type, [HOSE, HNX, UPCOM, ALL]
+   * Is sent
    */
-  marketType?: null | ("HOSE" | "HNX" | "UPCOM" | "ALL");
+  isSent?: boolean;
+  /**
+   * Is registered
+   */
+  isRegistered?: boolean;
   [k: string]: any;
 };
