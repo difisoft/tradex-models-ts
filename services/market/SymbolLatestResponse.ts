@@ -58,6 +58,14 @@ export interface SymbolLatestResponse {
    */
   va?: number;
   /**
+   * basis (for futures)
+   */
+  ba?: number;
+  /**
+   * open interest
+   */
+  oi?: number;
+  /**
    * match volume
    */
   mv?: number;
