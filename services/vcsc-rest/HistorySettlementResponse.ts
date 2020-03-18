@@ -34,10 +34,6 @@ export interface HistorySettlementResponse {
    */
   settleDate?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Trading date
    */
   tradingDate?: null | string;

@@ -18,10 +18,6 @@ export interface AccountStockBalanceResponse {
    */
   stockCode?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Balance quantity
    */
   balanceQuantity?: null | number;

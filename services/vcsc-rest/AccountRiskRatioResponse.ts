@@ -18,10 +18,6 @@ export interface AccountRiskRatioResponse {
    */
   marginLevel?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Spread margin
    */
   spreadMargin?: null | number;

@@ -10,10 +10,6 @@
  */
 export interface AccountCashBalanceResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Deposit amount
    */
   depositAmount?: null | number;

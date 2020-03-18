@@ -12,70 +12,70 @@ export interface AccountBalanceInfoResponse {
   /**
    * net Asset Value
    */
-  netAssetValue?: number;
+  netAssetValue?: null | number;
   /**
    * current Cash
    */
-  currentCash?: number;
+  currentCash?: null | number;
   /**
    * blocked Cash
    */
-  blockedCash?: number;
+  blockedCash?: null | number;
   /**
    * unsettled Cash
    */
-  unsettledCash?: number;
+  unsettledCash?: null | number;
   /**
    * unpaid Dividend
    */
-  unpaidDividend?: number;
+  unpaidDividend?: null | number;
   /**
    * total Asset
    */
-  totalAsset?: number;
+  totalAsset?: null | number;
   /**
    * current Holding Value
    */
-  currentHoldingValue?: number;
+  currentHoldingValue?: null | number;
   /**
    * value Of Unpaid Rights
    */
-  valueOfUnpaidRights?: number;
+  valueOfUnpaidRights?: null | number;
   /**
    * invested Capital
    */
-  investedCapital?: number;
+  investedCapital?: null | number;
   /**
    * unrealised PL
    */
-  unrealisedPL?: number;
+  unrealisedPL?: null | number;
   /**
    * unrealised PL Rate
    */
-  unrealisedPLRate?: number;
+  unrealisedPLRate?: null | number;
   /**
    * depository Fee
    */
-  depositoryFee?: number;
+  depositoryFee?: null | number;
   /**
    * margin Loan
    */
-  marginLoan?: number;
+  marginLoan?: null | number;
   /**
    * mortgaged Loan
    */
-  mortgagedLoan?: number;
+  mortgagedLoan?: null | number;
   /**
    * loan Interest
    */
-  loanInterest?: number;
+  loanInterest?: null | number;
   /**
    * unsettled Buying Amount
    */
-  unsettledBuyingAmount?: number;
+  unsettledBuyingAmount?: null | number;
   /**
    * total Debt
    */
-  totalDebt?: number;
+  totalDebt?: null | number;
   [k: string]: any;
 }

@@ -30,7 +30,7 @@ export interface DrOrderAdvHistoryResponse {
    */
   sendYn?: null | string;
   /**
-   * To date
+   * To date (YYYYmmdd)
    */
   toDate?: null | string;
   /**
@@ -50,7 +50,7 @@ export interface DrOrderAdvHistoryResponse {
    */
   codeName?: null | string;
   /**
-   * From date
+   * From date (YYYYmmdd)
    */
   fromDate?: null | string;
   /**
@@ -93,10 +93,6 @@ export interface DrOrderAdvHistoryResponse {
    * Sell buy type, [BUY, SELL, ALL]
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   /**
    * Valid status
    */

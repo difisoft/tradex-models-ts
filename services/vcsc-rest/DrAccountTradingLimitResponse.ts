@@ -30,10 +30,6 @@ export interface DrAccountTradingLimitResponse {
    */
   tickLimitYn?: boolean;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Trading limit
    */
   tradingLimit?: null | number;

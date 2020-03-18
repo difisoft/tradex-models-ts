@@ -50,10 +50,6 @@ export interface DrOrderTodayUnmatchResponse {
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Strategy type
    */
   strategyType?: null | string;

@@ -38,10 +38,6 @@ export interface LoanAvailableResponse {
    */
   matchAmount?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Adjust amount
    */
   adjustAmount?: null | number;

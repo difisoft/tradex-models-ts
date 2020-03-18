@@ -17,9 +17,5 @@ export interface ModifyOrderResponse {
    * Order number
    */
   orderNumber?: null | string;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

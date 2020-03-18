@@ -96,10 +96,6 @@ export interface DrHistoryTradeResponse {
    */
   totalTax?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Total quantity
    */
   totalQuantity?: null | number;

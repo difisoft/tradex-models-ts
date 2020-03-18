@@ -10,10 +10,6 @@
  */
 export interface AccountEquityResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Total cash balance
    */
   totalCashBalance?: null | number;

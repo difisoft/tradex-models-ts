@@ -10,10 +10,6 @@
  */
 export interface CashTransferInfoResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Deposit amount
    */
   depositAmount?: null | number;

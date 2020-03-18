@@ -10,10 +10,6 @@
  */
 export interface DrOrderUnmatchPositionResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    *  unmatched buy quantity
    */
   UnmatchedBuyQuantity?: null | number;

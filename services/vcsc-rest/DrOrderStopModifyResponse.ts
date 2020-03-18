@@ -13,9 +13,5 @@ export interface DrOrderStopModifyResponse {
    * Dummy
    */
   dummy?: null | string;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

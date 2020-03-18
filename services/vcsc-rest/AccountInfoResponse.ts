@@ -42,10 +42,6 @@ export interface AccountInfoResponse {
    */
   phoneNumber?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Agency branch
    */
   agencyBranch?: null | string;

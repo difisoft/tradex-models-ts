@@ -13,9 +13,5 @@ export interface DrOrderCancelAllResponse {
    * Message
    */
   message?: null | string;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

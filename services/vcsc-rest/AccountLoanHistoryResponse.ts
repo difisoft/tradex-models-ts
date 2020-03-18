@@ -38,10 +38,6 @@ export interface AccountLoanHistoryResponse {
    */
   expiredDate?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Loan interest
    */
   loanInterest?: null | number;

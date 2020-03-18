@@ -26,10 +26,6 @@ export interface HistoryMarginCallResponse {
    */
   assignedCAA?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Margin amount
    */
   marginAmount?: null | number;

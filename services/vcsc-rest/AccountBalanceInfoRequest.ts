@@ -14,18 +14,18 @@ export type AccountBalanceInfoRequest = BaseRequest & {
   /**
    * account number
    */
-  accountNumber: string;
+  accountNumber: null | string;
   /**
    * sub number
    */
-  subNumber: string;
+  subNumber: null | string;
   /**
    * bank code
    */
-  bankCode: string;
+  bankCode: null | string;
   /**
    * bank account
    */
-  bankAccount: string;
+  bankAccount: null | string;
   [k: string]: any;
 };

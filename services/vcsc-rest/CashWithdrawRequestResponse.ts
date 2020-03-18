@@ -18,10 +18,6 @@ export interface CashWithdrawRequestResponse {
    */
   cashBalance?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Received cash
    */
   receivedCash?: null | number;

@@ -21,9 +21,5 @@ export interface AccountBanksResponse {
    * Bank account
    */
   bankAccount?: null | number;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

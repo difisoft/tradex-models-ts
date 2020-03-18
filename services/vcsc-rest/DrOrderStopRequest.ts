@@ -20,11 +20,11 @@ export type DrOrderStopRequest = BaseRequest & {
    */
   date?: null | string;
   /**
-   * To date
+   * To date (YYYYmmdd)
    */
   toDate?: null | string;
   /**
-   * From date
+   * From date (YYYYmmdd)
    */
   fromDate?: null | string;
   /**

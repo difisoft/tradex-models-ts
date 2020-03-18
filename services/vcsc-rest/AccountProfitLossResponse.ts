@@ -26,10 +26,6 @@ export interface AccountProfitLossResponse {
    */
   tTradeValue?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Deposit amount
    */
   depositAmount?: null | number;

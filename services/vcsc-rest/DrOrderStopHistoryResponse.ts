@@ -34,7 +34,7 @@ export interface DrOrderStopHistoryResponse {
    */
   status?: null | string;
   /**
-   * To date
+   * To date (YYYYmmdd)
    */
   toDate?: null | string;
   /**
@@ -50,7 +50,7 @@ export interface DrOrderStopHistoryResponse {
    */
   codeName?: null | string;
   /**
-   * From date
+   * From date (YYYYmmdd)
    */
   fromDate?: null | string;
   /**
@@ -97,10 +97,6 @@ export interface DrOrderStopHistoryResponse {
    * Sell buy type, [BUY, SELL, ALL]
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   /**
    * Trading date
    */

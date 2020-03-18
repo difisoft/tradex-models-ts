@@ -13,9 +13,5 @@ export interface AccountMobileResponse {
    * Phone number
    */
   phoneNumber?: null | string;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

@@ -38,10 +38,6 @@ export interface AccountSellableResponse {
    */
   todaySell?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Balance quantity
    */
   balanceQuantity?: null | number;

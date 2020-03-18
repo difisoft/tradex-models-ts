@@ -38,10 +38,6 @@ export interface AccountSummaryResponse {
    */
   inOutAmount?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Unrealized p l
    */
   unrealizedPL?: null | number;

@@ -38,10 +38,6 @@ export interface AccountTradingSummaryResponse {
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Average price
    */
   averagePrice?: null | number;

@@ -46,10 +46,6 @@ export interface AccountAssetInfoResponse {
    */
   reuseAmount?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Margin rights
    */
   marginRights?: null | number;

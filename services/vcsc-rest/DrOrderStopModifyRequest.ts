@@ -12,7 +12,7 @@ import {BaseRequest} from "../common";
  */
 export type DrOrderStopModifyRequest = BaseRequest & {
   /**
-   * To date
+   * To date (YYYYmmdd)
    */
   toDate?: null | string;
   /**

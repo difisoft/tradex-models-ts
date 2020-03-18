@@ -42,10 +42,6 @@ export interface HistoryPositionResponse {
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Trading date
    */
   tradingDate?: null | string;

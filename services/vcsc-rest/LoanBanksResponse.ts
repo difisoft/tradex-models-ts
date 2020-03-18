@@ -17,9 +17,5 @@ export interface LoanBanksResponse {
    * Bank name
    */
   bankName?: null | string;
-  /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
   [k: string]: any;
 }

@@ -30,10 +30,6 @@ export interface AccountTransactionHistoryResponse {
    */
   subNumber?: null | string;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Trading date
    */
   tradingDate?: null | string;

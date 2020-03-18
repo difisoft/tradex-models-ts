@@ -10,10 +10,6 @@
  */
 export interface DrOrderAvailableResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Open position
    */
   openPosition?: null | number;

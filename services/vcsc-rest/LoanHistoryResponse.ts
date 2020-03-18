@@ -34,10 +34,6 @@ export interface LoanHistoryResponse {
    */
   matchAmount?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Loan bank code
    */
   loanBankCode?: null | string;

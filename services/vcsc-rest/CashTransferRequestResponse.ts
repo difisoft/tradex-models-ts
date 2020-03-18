@@ -10,10 +10,6 @@
  */
 export interface CashTransferRequestResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * In cash balance
    */
   inCashBalance?: null | number;

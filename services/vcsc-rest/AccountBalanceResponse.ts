@@ -26,10 +26,6 @@ export interface AccountBalanceResponse {
    */
   cashBalance?: null | number;
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Account number
    */
   accountNumber?: null | string;
