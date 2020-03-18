@@ -12,9 +12,25 @@ import {BaseRequest} from "../common";
  */
 export type OrderModifyAllRequest = BaseRequest & {
   /**
-   * Order type
+   * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType?: null | string;
+  orderType?:
+    | "LO"
+    | "MP"
+    | "ATO"
+    | "ATC"
+    | "AON"
+    | "BIG_LOT"
+    | "MOK"
+    | "MAK"
+    | "MTL"
+    | "IO"
+    | "SO_GREATER"
+    | "SO_LESS"
+    | "SBO"
+    | "OBO"
+    | "PLO"
+    | "ALL";
   /**
    * Stock code
    */
@@ -36,9 +52,9 @@ export type OrderModifyAllRequest = BaseRequest & {
    */
   bankAccount?: null | string;
   /**
-   * Sell buy type
+   * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType?: null | string;
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Account number
    */

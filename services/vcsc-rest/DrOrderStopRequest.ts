@@ -36,9 +36,25 @@ export type DrOrderStopRequest = BaseRequest & {
    */
   bandPrice?: null | number;
   /**
-   * Order type
+   * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType?: null | string;
+  orderType?:
+    | "LO"
+    | "MP"
+    | "ATO"
+    | "ATC"
+    | "AON"
+    | "BIG_LOT"
+    | "MOK"
+    | "MAK"
+    | "MTL"
+    | "IO"
+    | "SO_GREATER"
+    | "SO_LESS"
+    | "SBO"
+    | "OBO"
+    | "PLO"
+    | "ALL";
   /**
    * Stop price
    */

@@ -20,9 +20,9 @@ export type StopOrderModifyAllRequest = BaseRequest & {
    */
   futuresCode?: null | string;
   /**
-   * Sell buy type
+   * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType?: null | string;
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * New stop price
    */

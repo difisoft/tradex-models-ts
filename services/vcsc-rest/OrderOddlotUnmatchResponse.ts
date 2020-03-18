@@ -38,9 +38,9 @@ export interface OrderOddlotUnmatchResponse {
    */
   orderNumber?: null | string;
   /**
-   * Sell buy type
+   * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType?: null | string;
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Account number
    */

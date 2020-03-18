@@ -26,17 +26,33 @@ export interface OrderTodayUnmatchResponse {
    */
   username?: null | string;
   /**
-   * Order date
+   * Order date (YYYYmmdd)
    */
   orderDate?: null | string;
   /**
-   * Order time
+   * Order time (HHMMSS)
    */
   orderTime?: null | string;
   /**
-   * Order type
+   * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType?: null | string;
+  orderType?:
+    | "LO"
+    | "MP"
+    | "ATO"
+    | "ATC"
+    | "AON"
+    | "BIG_LOT"
+    | "MOK"
+    | "MAK"
+    | "MTL"
+    | "IO"
+    | "SO_GREATER"
+    | "SO_LESS"
+    | "SBO"
+    | "OBO"
+    | "PLO"
+    | "ALL";
   /**
    * Stock code
    */
@@ -62,13 +78,13 @@ export interface OrderTodayUnmatchResponse {
    */
   orderNumber?: null | string;
   /**
-   * Order status
+   * Order status, [RECEIPT, SEND, ORDER_CONFIRM, RECEIPT_CONFIRM, FULL_FILLED, PARTIAL_FILLED, REJECT]
    */
-  orderStatus?: null | string;
+  orderStatus?: "RECEIPT" | "SEND" | "ORDER_CONFIRM" | "RECEIPT_CONFIRM" | "FULL_FILLED" | "PARTIAL_FILLED" | "REJECT";
   /**
-   * Sell buy type
+   * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType?: null | string;
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Matched price
    */

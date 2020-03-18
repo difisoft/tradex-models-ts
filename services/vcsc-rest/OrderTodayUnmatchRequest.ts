@@ -14,13 +14,13 @@ export type OrderTodayUnmatchRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
   subNumber?: null | string;
   /**
-   * Date
+   * Date (YYYYmmdd)
    */
   date?: null | string;
   /**
