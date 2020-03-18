@@ -14,11 +14,11 @@ export type AdvanceOrderPlaceRequest = BaseRequest & {
   /**
    * Bank code
    */
-  bankCode?: null | string;
+  bankCode: null | string;
   /**
    * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType?:
+  orderType:
     | "LO"
     | "MP"
     | "ATO"
@@ -38,7 +38,7 @@ export type AdvanceOrderPlaceRequest = BaseRequest & {
   /**
    * Stock code
    */
-  stockCode?: null | string;
+  stockCode: null | string;
   /**
    * Sub number
    */
@@ -46,11 +46,11 @@ export type AdvanceOrderPlaceRequest = BaseRequest & {
   /**
    * Order price
    */
-  orderPrice?: null | number;
+  orderPrice: null | number;
   /**
    * Bank account
    */
-  bankAccount?: null | string;
+  bankAccount: null | string;
   /**
    * Phone number
    */
@@ -58,15 +58,15 @@ export type AdvanceOrderPlaceRequest = BaseRequest & {
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
+  sellBuyType: null | ("BUY" | "SELL" | "ALL");
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * Order quantity
    */
-  orderQuantity?: null | number;
+  orderQuantity: null | number;
   /**
    * Securities type
    */

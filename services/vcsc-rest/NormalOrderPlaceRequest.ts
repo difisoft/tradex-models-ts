@@ -12,21 +12,33 @@ import {BaseRequest} from "../common";
  */
 export type NormalOrderPlaceRequest = BaseRequest & {
   /**
-   * Code
+   * Account number
    */
-  code?: null | string;
+  accountNumber: string;
   /**
-   * Heg yn
+   * Sub number
    */
-  hegYn?: null | string;
+  subNumber?: string;
   /**
-   * Reg yn
+   * Stock code
    */
-  regYn?: null | string;
+  stockCode?: string;
   /**
-   * Password
+   * Order quantity
    */
-  password?: null | string;
+  orderQuantity?: number;
+  /**
+   * Order price
+   */
+  orderPrice?: number;
+  /**
+   * Bank code
+   */
+  bankCode?: string;
+  /**
+   * Sell buy type, [BUY, SELL, ALL]
+   */
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
@@ -48,32 +60,16 @@ export type NormalOrderPlaceRequest = BaseRequest & {
     | "PLO"
     | "ALL";
   /**
-   * Order price
+   * Securities type
    */
-  orderPrice?: null | number;
+  securitiesType?: string;
   /**
-   * Sell buy type, [BUY, SELL, ALL]
+   * Bank account
    */
-  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
+  bankAccount?: string;
   /**
-   * Account number
+   * Bank name
    */
-  accountNumber?: null | string;
-  /**
-   * Order quantity
-   */
-  orderQuantity?: null | number;
-  /**
-   * Order condition
-   */
-  orderCondition?: null | string;
-  /**
-   * Stop order price
-   */
-  stopOrderPrice?: null | string;
-  /**
-   * Min match quantity
-   */
-  minMatchQuantity?: null | string;
+  bankName?: string;
   [k: string]: any;
 };
