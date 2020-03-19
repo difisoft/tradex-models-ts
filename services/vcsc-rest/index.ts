@@ -131,17 +131,17 @@ import {
   AccountTransactionHistoryResponse,
 } from "./AccountTransactionHistoryResponse";
 import {
+  AdvOrderCancelRequest,
+} from "./AdvOrderCancelRequest";
+import {
+  AdvOrderCancelResponse,
+} from "./AdvOrderCancelResponse";
+import {
   AdvOrderPlaceRequest,
 } from "./AdvOrderPlaceRequest";
 import {
   AdvOrderPlaceResponse,
 } from "./AdvOrderPlaceResponse";
-import {
-  AdvanceOrderPlaceRequest,
-} from "./AdvanceOrderPlaceRequest";
-import {
-  AdvanceOrderPlaceResponse,
-} from "./AdvanceOrderPlaceResponse";
 import {
   AuthenRequest,
 } from "./AuthenRequest";
@@ -151,42 +151,6 @@ import {
 import {
   Bank,
 } from "./Bank";
-import {
-  CancelAdvOrderRequest,
-} from "./CancelAdvOrderRequest";
-import {
-  CancelAdvOrderResponse,
-} from "./CancelAdvOrderResponse";
-import {
-  CancelAdvanceOrderRequest,
-} from "./CancelAdvanceOrderRequest";
-import {
-  CancelAdvanceOrderResponse,
-} from "./CancelAdvanceOrderResponse";
-import {
-  CancelNormalOrderRequest,
-} from "./CancelNormalOrderRequest";
-import {
-  CancelNormalOrderResponse,
-} from "./CancelNormalOrderResponse";
-import {
-  CancelOddlotOrderRequest,
-} from "./CancelOddlotOrderRequest";
-import {
-  CancelOddlotOrderResponse,
-} from "./CancelOddlotOrderResponse";
-import {
-  CancelOrderRequest,
-} from "./CancelOrderRequest";
-import {
-  CancelOrderResponse,
-} from "./CancelOrderResponse";
-import {
-  CancelTransferCashRequest,
-} from "./CancelTransferCashRequest";
-import {
-  CancelTransferCashResponse,
-} from "./CancelTransferCashResponse";
 import {
   CashTransferInfoRequest,
 } from "./CashTransferInfoRequest";
@@ -344,17 +308,17 @@ import {
   LoanRegisterResponse,
 } from "./LoanRegisterResponse";
 import {
-  ModifyOrderRequest,
-} from "./ModifyOrderRequest";
+  NormalOrderCancelRequest,
+} from "./NormalOrderCancelRequest";
 import {
-  ModifyOrderResponse,
-} from "./ModifyOrderResponse";
+  NormalOrderCancelResponse,
+} from "./NormalOrderCancelResponse";
 import {
-  NormalOrderPlaceRequest,
-} from "./NormalOrderPlaceRequest";
+  OddlotOrderCancelRequest,
+} from "./OddlotOrderCancelRequest";
 import {
-  NormalOrderPlaceResponse,
-} from "./NormalOrderPlaceResponse";
+  OddlotOrderCancelResponse,
+} from "./OddlotOrderCancelResponse";
 import {
   OddlotOrderPlaceRequest,
 } from "./OddlotOrderPlaceRequest";
@@ -434,6 +398,36 @@ import {
   RightsRegisterResponse,
 } from "./RightsRegisterResponse";
 import {
+  StockOrderAdvanceCancelRequest,
+} from "./StockOrderAdvanceCancelRequest";
+import {
+  StockOrderAdvanceCancelResponse,
+} from "./StockOrderAdvanceCancelResponse";
+import {
+  StockOrderAdvanceRequest,
+} from "./StockOrderAdvanceRequest";
+import {
+  StockOrderAdvanceResponse,
+} from "./StockOrderAdvanceResponse";
+import {
+  StockOrderCancelRequest,
+} from "./StockOrderCancelRequest";
+import {
+  StockOrderCancelResponse,
+} from "./StockOrderCancelResponse";
+import {
+  StockOrderModifyRequest,
+} from "./StockOrderModifyRequest";
+import {
+  StockOrderModifyResponse,
+} from "./StockOrderModifyResponse";
+import {
+  StockOrderRequest,
+} from "./StockOrderRequest";
+import {
+  StockOrderResponse,
+} from "./StockOrderResponse";
+import {
   StopOrderCancelAllRequest,
 } from "./StopOrderCancelAllRequest";
 import {
@@ -451,6 +445,12 @@ import {
 import {
   TransferCashAccountResponse,
 } from "./TransferCashAccountResponse";
+import {
+  TransferCashCancelRequest,
+} from "./TransferCashCancelRequest";
+import {
+  TransferCashCancelResponse,
+} from "./TransferCashCancelResponse";
 import {
   TransferCashHistoryRequest,
 } from "./TransferCashHistoryRequest";
@@ -605,25 +605,13 @@ export {
   AccountTradingSummaryResponse,
   AccountTransactionHistoryRequest,
   AccountTransactionHistoryResponse,
+  AdvOrderCancelRequest,
+  AdvOrderCancelResponse,
   AdvOrderPlaceRequest,
   AdvOrderPlaceResponse,
-  AdvanceOrderPlaceRequest,
-  AdvanceOrderPlaceResponse,
   AuthenRequest,
   AuthenResponse,
   Bank,
-  CancelAdvOrderRequest,
-  CancelAdvOrderResponse,
-  CancelAdvanceOrderRequest,
-  CancelAdvanceOrderResponse,
-  CancelNormalOrderRequest,
-  CancelNormalOrderResponse,
-  CancelOddlotOrderRequest,
-  CancelOddlotOrderResponse,
-  CancelOrderRequest,
-  CancelOrderResponse,
-  CancelTransferCashRequest,
-  CancelTransferCashResponse,
   CashTransferInfoRequest,
   CashTransferInfoResponse,
   CashTransferRequestRequest,
@@ -676,10 +664,10 @@ export {
   LoanHistoryResponse,
   LoanRegisterRequest,
   LoanRegisterResponse,
-  ModifyOrderRequest,
-  ModifyOrderResponse,
-  NormalOrderPlaceRequest,
-  NormalOrderPlaceResponse,
+  NormalOrderCancelRequest,
+  NormalOrderCancelResponse,
+  OddlotOrderCancelRequest,
+  OddlotOrderCancelResponse,
   OddlotOrderPlaceRequest,
   OddlotOrderPlaceResponse,
   OrderAdvanceHistoryRequest,
@@ -706,12 +694,24 @@ export {
   RightsOthersResponse,
   RightsRegisterRequest,
   RightsRegisterResponse,
+  StockOrderAdvanceCancelRequest,
+  StockOrderAdvanceCancelResponse,
+  StockOrderAdvanceRequest,
+  StockOrderAdvanceResponse,
+  StockOrderCancelRequest,
+  StockOrderCancelResponse,
+  StockOrderModifyRequest,
+  StockOrderModifyResponse,
+  StockOrderRequest,
+  StockOrderResponse,
   StopOrderCancelAllRequest,
   StopOrderCancelAllResponse,
   StopOrderModifyAllRequest,
   StopOrderModifyAllResponse,
   TransferCashAccountRequest,
   TransferCashAccountResponse,
+  TransferCashCancelRequest,
+  TransferCashCancelResponse,
   TransferCashHistoryRequest,
   TransferCashHistoryResponse,
   TransferCashRequest,
