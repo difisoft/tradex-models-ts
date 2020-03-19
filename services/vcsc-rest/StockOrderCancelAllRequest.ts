@@ -8,17 +8,13 @@
 import {BaseRequest} from "../common";
 
 /**
- * Place advance order request schema
+ * Order cancel all request schema
  */
-export type StockOrderAdvanceRequest = BaseRequest & {
-  /**
-   * Bank code
-   */
-  bankCode: string;
+export type StockOrderCancelAllRequest = BaseRequest & {
   /**
    * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType:
+  orderType?:
     | "LO"
     | "MP"
     | "ATO"
@@ -38,7 +34,7 @@ export type StockOrderAdvanceRequest = BaseRequest & {
   /**
    * Stock code
    */
-  stockCode: string;
+  stockCode?: null | string;
   /**
    * Sub number
    */
@@ -46,34 +42,14 @@ export type StockOrderAdvanceRequest = BaseRequest & {
   /**
    * Order price
    */
-  orderPrice: number;
-  /**
-   * Bank account
-   */
-  bankAccount: string;
-  /**
-   * Phone number
-   */
-  phoneNumber?: null | string;
+  orderPrice?: null | number;
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType: "BUY" | "SELL" | "ALL";
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Account number
    */
   accountNumber: string;
-  /**
-   * Order quantity
-   */
-  orderQuantity: number;
-  /**
-   * Securities type
-   */
-  securitiesType?: null | string;
-  /**
-   * Advance order date
-   */
-  advanceOrderDate?: null | string;
   [k: string]: any;
 };

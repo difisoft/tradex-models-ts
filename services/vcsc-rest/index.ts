@@ -314,53 +314,11 @@ import {
   NormalOrderCancelResponse,
 } from "./NormalOrderCancelResponse";
 import {
-  OddlotOrderCancelRequest,
-} from "./OddlotOrderCancelRequest";
-import {
-  OddlotOrderCancelResponse,
-} from "./OddlotOrderCancelResponse";
-import {
-  OddlotOrderPlaceRequest,
-} from "./OddlotOrderPlaceRequest";
-import {
-  OddlotOrderPlaceResponse,
-} from "./OddlotOrderPlaceResponse";
-import {
-  OrderAdvanceHistoryRequest,
-} from "./OrderAdvanceHistoryRequest";
-import {
-  OrderAdvanceHistoryResponse,
-} from "./OrderAdvanceHistoryResponse";
-import {
-  OrderCancelAllRequest,
-} from "./OrderCancelAllRequest";
-import {
-  OrderCancelAllResponse,
-} from "./OrderCancelAllResponse";
-import {
   OrderHistoryRequest,
 } from "./OrderHistoryRequest";
 import {
   OrderHistoryResponse,
 } from "./OrderHistoryResponse";
-import {
-  OrderModifyAllRequest,
-} from "./OrderModifyAllRequest";
-import {
-  OrderModifyAllResponse,
-} from "./OrderModifyAllResponse";
-import {
-  OrderOddlotSellableRequest,
-} from "./OrderOddlotSellableRequest";
-import {
-  OrderOddlotSellableResponse,
-} from "./OrderOddlotSellableResponse";
-import {
-  OrderOddlotUnmatchRequest,
-} from "./OrderOddlotUnmatchRequest";
-import {
-  OrderOddlotUnmatchResponse,
-} from "./OrderOddlotUnmatchResponse";
 import {
   OrderTodayUnmatchRequest,
 } from "./OrderTodayUnmatchRequest";
@@ -404,11 +362,23 @@ import {
   StockOrderAdvanceCancelResponse,
 } from "./StockOrderAdvanceCancelResponse";
 import {
+  StockOrderAdvanceHistoryRequest,
+} from "./StockOrderAdvanceHistoryRequest";
+import {
+  StockOrderAdvanceHistoryResponse,
+} from "./StockOrderAdvanceHistoryResponse";
+import {
   StockOrderAdvanceRequest,
 } from "./StockOrderAdvanceRequest";
 import {
   StockOrderAdvanceResponse,
 } from "./StockOrderAdvanceResponse";
+import {
+  StockOrderCancelAllRequest,
+} from "./StockOrderCancelAllRequest";
+import {
+  StockOrderCancelAllResponse,
+} from "./StockOrderCancelAllResponse";
 import {
   StockOrderCancelRequest,
 } from "./StockOrderCancelRequest";
@@ -416,11 +386,47 @@ import {
   StockOrderCancelResponse,
 } from "./StockOrderCancelResponse";
 import {
+  StockOrderModifyAllRequest,
+} from "./StockOrderModifyAllRequest";
+import {
+  StockOrderModifyAllResponse,
+} from "./StockOrderModifyAllResponse";
+import {
   StockOrderModifyRequest,
 } from "./StockOrderModifyRequest";
 import {
   StockOrderModifyResponse,
 } from "./StockOrderModifyResponse";
+import {
+  StockOrderOddlotCancelRequest,
+} from "./StockOrderOddlotCancelRequest";
+import {
+  StockOrderOddlotCancelResponse,
+} from "./StockOrderOddlotCancelResponse";
+import {
+  StockOrderOddlotMatchRequest,
+} from "./StockOrderOddlotMatchRequest";
+import {
+  StockOrderOddlotMatchResponse,
+} from "./StockOrderOddlotMatchResponse";
+import {
+  StockOrderOddlotRequest,
+} from "./StockOrderOddlotRequest";
+import {
+  StockOrderOddlotResponse,
+} from "./StockOrderOddlotResponse";
+import {
+  StockOrderOddlotSellableRequest,
+} from "./StockOrderOddlotSellableRequest";
+import {
+  StockOrderOddlotSellableResponse,
+} from "./StockOrderOddlotSellableResponse";
+import {
+  StockOrderOddlotUnmatchRequest,
+} from "./StockOrderOddlotUnmatchRequest";
+import {
+  StockOrderOddlotUnmatchResponse,
+} from "./StockOrderOddlotUnmatchResponse";
 import {
   StockOrderRequest,
 } from "./StockOrderRequest";
@@ -666,22 +672,8 @@ export {
   LoanRegisterResponse,
   NormalOrderCancelRequest,
   NormalOrderCancelResponse,
-  OddlotOrderCancelRequest,
-  OddlotOrderCancelResponse,
-  OddlotOrderPlaceRequest,
-  OddlotOrderPlaceResponse,
-  OrderAdvanceHistoryRequest,
-  OrderAdvanceHistoryResponse,
-  OrderCancelAllRequest,
-  OrderCancelAllResponse,
   OrderHistoryRequest,
   OrderHistoryResponse,
-  OrderModifyAllRequest,
-  OrderModifyAllResponse,
-  OrderOddlotSellableRequest,
-  OrderOddlotSellableResponse,
-  OrderOddlotUnmatchRequest,
-  OrderOddlotUnmatchResponse,
   OrderTodayUnmatchRequest,
   OrderTodayUnmatchResponse,
   RightsAvailableRequest,
@@ -696,12 +688,28 @@ export {
   RightsRegisterResponse,
   StockOrderAdvanceCancelRequest,
   StockOrderAdvanceCancelResponse,
+  StockOrderAdvanceHistoryRequest,
+  StockOrderAdvanceHistoryResponse,
   StockOrderAdvanceRequest,
   StockOrderAdvanceResponse,
+  StockOrderCancelAllRequest,
+  StockOrderCancelAllResponse,
   StockOrderCancelRequest,
   StockOrderCancelResponse,
+  StockOrderModifyAllRequest,
+  StockOrderModifyAllResponse,
   StockOrderModifyRequest,
   StockOrderModifyResponse,
+  StockOrderOddlotCancelRequest,
+  StockOrderOddlotCancelResponse,
+  StockOrderOddlotMatchRequest,
+  StockOrderOddlotMatchResponse,
+  StockOrderOddlotRequest,
+  StockOrderOddlotResponse,
+  StockOrderOddlotSellableRequest,
+  StockOrderOddlotSellableResponse,
+  StockOrderOddlotUnmatchRequest,
+  StockOrderOddlotUnmatchResponse,
   StockOrderRequest,
   StockOrderResponse,
   StopOrderCancelAllRequest,

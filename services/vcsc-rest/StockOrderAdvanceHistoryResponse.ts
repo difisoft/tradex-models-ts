@@ -5,20 +5,30 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
- * Place advance order request schema
+ * Query order advance history response schema
  */
-export type StockOrderAdvanceRequest = BaseRequest & {
+export interface StockOrderAdvanceHistoryResponse {
   /**
-   * Bank code
+   * Channel
    */
-  bankCode: string;
+  channel?: null | string;
+  /**
+   * Username
+   */
+  username?: null | string;
+  /**
+   * Order date
+   */
+  orderDate?: null | string;
+  /**
+   * Order time
+   */
+  orderTime?: null | string;
   /**
    * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType:
+  orderType?:
     | "LO"
     | "MP"
     | "ATO"
@@ -38,19 +48,27 @@ export type StockOrderAdvanceRequest = BaseRequest & {
   /**
    * Stock code
    */
-  stockCode: string;
+  stockCode?: null | string;
   /**
    * Sub number
    */
   subNumber?: null | string;
   /**
+   * Branch code
+   */
+  branchCode?: null | string;
+  /**
    * Order price
    */
-  orderPrice: number;
+  orderPrice?: null | number;
   /**
-   * Bank account
+   * Order number
    */
-  bankAccount: string;
+  orderNumber?: null | string;
+  /**
+   * Order status, [RECEIPT, SEND, ORDER_CONFIRM, RECEIPT_CONFIRM, FULL_FILLED, PARTIAL_FILLED, REJECT]
+   */
+  orderStatus?: "RECEIPT" | "SEND" | "ORDER_CONFIRM" | "RECEIPT_CONFIRM" | "FULL_FILLED" | "PARTIAL_FILLED" | "REJECT";
   /**
    * Phone number
    */
@@ -58,22 +76,14 @@ export type StockOrderAdvanceRequest = BaseRequest & {
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType: "BUY" | "SELL" | "ALL";
+  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
    * Account number
    */
-  accountNumber: string;
+  accountNumber?: null | string;
   /**
    * Order quantity
    */
-  orderQuantity: number;
-  /**
-   * Securities type
-   */
-  securitiesType?: null | string;
-  /**
-   * Advance order date
-   */
-  advanceOrderDate?: null | string;
+  orderQuantity?: null | number;
   [k: string]: any;
-};
+}
