@@ -14,7 +14,7 @@ export type AccountAssetInfoRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
@@ -22,10 +22,10 @@ export type AccountAssetInfoRequest = BaseRequest & {
   /**
    * Bank code
    */
-  bankCode?: null | string;
+  bankCode: string;
   /**
    * Bank account
    */
-  bankAccount?: null | string;
+  bankAccount: string;
   [k: string]: any;
 };

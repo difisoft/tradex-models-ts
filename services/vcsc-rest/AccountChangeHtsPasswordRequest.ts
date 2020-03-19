@@ -14,11 +14,11 @@ export type AccountChangeHtsPasswordRequest = BaseRequest & {
   /**
    * Username
    */
-  username?: null | string;
+  username: string;
   /**
    * New password
    */
-  newPassword?: null | string;
+  newPassword: string;
   /**
    * Old password
    */

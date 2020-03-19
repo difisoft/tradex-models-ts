@@ -8,6 +8,12 @@ import {
   AccountAssetInfoResponse,
 } from "./AccountAssetInfoResponse";
 import {
+  AccountBalanceDetailsRequest,
+} from "./AccountBalanceDetailsRequest";
+import {
+  AccountBalanceDetailsResponse,
+} from "./AccountBalanceDetailsResponse";
+import {
   AccountBalanceInfoRequest,
 } from "./AccountBalanceInfoRequest";
 import {
@@ -19,12 +25,6 @@ import {
 import {
   AccountBalanceResponse,
 } from "./AccountBalanceResponse";
-import {
-  AccountBanksRequest,
-} from "./AccountBanksRequest";
-import {
-  AccountBanksResponse,
-} from "./AccountBanksResponse";
 import {
   AccountBuyableRequest,
 } from "./AccountBuyableRequest";
@@ -44,11 +44,11 @@ import {
   AccountChangeHtsPasswordResponse,
 } from "./AccountChangeHtsPasswordResponse";
 import {
-  AccountChangeOrderPasswordRequest,
-} from "./AccountChangeOrderPasswordRequest";
+  AccountChangePasswordRequest,
+} from "./AccountChangePasswordRequest";
 import {
-  AccountChangeOrderPasswordResponse,
-} from "./AccountChangeOrderPasswordResponse";
+  AccountChangePasswordResponse,
+} from "./AccountChangePasswordResponse";
 import {
   AccountEquityRequest,
 } from "./AccountEquityRequest";
@@ -104,12 +104,6 @@ import {
   AccountSellableResponse,
 } from "./AccountSellableResponse";
 import {
-  AccountStockBalanceRequest,
-} from "./AccountStockBalanceRequest";
-import {
-  AccountStockBalanceResponse,
-} from "./AccountStockBalanceResponse";
-import {
   AccountSub,
 } from "./AccountSub";
 import {
@@ -151,6 +145,12 @@ import {
 import {
   Bank,
 } from "./Bank";
+import {
+  BankAccountRequest,
+} from "./BankAccountRequest";
+import {
+  BankAccountResponse,
+} from "./BankAccountResponse";
 import {
   CashTransferInfoRequest,
 } from "./CashTransferInfoRequest";
@@ -570,20 +570,20 @@ export {
   Account,
   AccountAssetInfoRequest,
   AccountAssetInfoResponse,
+  AccountBalanceDetailsRequest,
+  AccountBalanceDetailsResponse,
   AccountBalanceInfoRequest,
   AccountBalanceInfoResponse,
   AccountBalanceRequest,
   AccountBalanceResponse,
-  AccountBanksRequest,
-  AccountBanksResponse,
   AccountBuyableRequest,
   AccountBuyableResponse,
   AccountCashBalanceRequest,
   AccountCashBalanceResponse,
   AccountChangeHtsPasswordRequest,
   AccountChangeHtsPasswordResponse,
-  AccountChangeOrderPasswordRequest,
-  AccountChangeOrderPasswordResponse,
+  AccountChangePasswordRequest,
+  AccountChangePasswordResponse,
   AccountEquityRequest,
   AccountEquityResponse,
   AccountInfoRequest,
@@ -602,8 +602,6 @@ export {
   AccountRiskRatioResponse,
   AccountSellableRequest,
   AccountSellableResponse,
-  AccountStockBalanceRequest,
-  AccountStockBalanceResponse,
   AccountSub,
   AccountSummaryRequest,
   AccountSummaryResponse,
@@ -618,6 +616,8 @@ export {
   AuthenRequest,
   AuthenResponse,
   Bank,
+  BankAccountRequest,
+  BankAccountResponse,
   CashTransferInfoRequest,
   CashTransferInfoResponse,
   CashTransferRequestRequest,

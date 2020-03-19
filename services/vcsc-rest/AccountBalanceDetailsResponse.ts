@@ -6,12 +6,20 @@
  */
 
 /**
- * Account change order password response schema
+ * Account stock balance response schema
  */
-export interface AccountChangeOrderPasswordResponse {
+export interface AccountBalanceDetailsResponse {
   /**
-   * Message
+   * Date
    */
-  message?: null | string;
+  date?: null | string;
+  /**
+   * Stock code
+   */
+  stockCode?: null | string;
+  /**
+   * Balance quantity
+   */
+  balanceQuantity?: null | number;
   [k: string]: any;
 }

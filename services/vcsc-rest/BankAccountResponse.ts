@@ -5,19 +5,21 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
- * Account banks request schema
+ * Account banks response schema
  */
-export type AccountBanksRequest = BaseRequest & {
+export interface BankAccountResponse {
   /**
-   * Account number
+   * Bank code
    */
-  accountNumber?: null | string;
+  bankCode?: null | string;
   /**
-   * Sub number
+   * Bank name
    */
-  subNumber?: null | string;
+  bankName?: null | string;
+  /**
+   * Bank account
+   */
+  bankAccount?: null | number;
   [k: string]: any;
-};
+}

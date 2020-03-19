@@ -10,15 +10,15 @@ import {BaseRequest} from "../common";
 /**
  * Account stock balance request schema
  */
-export type AccountStockBalanceRequest = BaseRequest & {
+export type AccountBalanceDetailsRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * Sub number
    */
-  subNumber?: null | string;
+  subNumber: null | string;
   /**
    * Stock code
    */

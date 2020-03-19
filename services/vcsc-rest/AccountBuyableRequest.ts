@@ -14,7 +14,7 @@ export type AccountBuyableRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
@@ -38,7 +38,7 @@ export type AccountBuyableRequest = BaseRequest & {
   /**
    * Order price
    */
-  orderPrice?: null | number;
+  orderPrice: number;
   /**
    * Order quantity
    */

@@ -10,7 +10,7 @@ import {BaseRequest} from "../common";
 /**
  * Account change order password request schema
  */
-export type AccountChangeOrderPasswordRequest = BaseRequest & {
+export type AccountChangePasswordRequest = BaseRequest & {
   /**
    * Sub number
    */
@@ -18,7 +18,7 @@ export type AccountChangeOrderPasswordRequest = BaseRequest & {
   /**
    * New password
    */
-  newPassword?: null | string;
+  newPassword: string;
   /**
    * Old password
    */
@@ -26,6 +26,6 @@ export type AccountChangeOrderPasswordRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   [k: string]: any;
 };

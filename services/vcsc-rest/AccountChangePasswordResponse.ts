@@ -6,20 +6,12 @@
  */
 
 /**
- * Account banks response schema
+ * Account change order password response schema
  */
-export interface AccountBanksResponse {
+export interface AccountChangePasswordResponse {
   /**
-   * Bank code
+   * Message
    */
-  bankCode?: null | string;
-  /**
-   * Bank name
-   */
-  bankName?: null | string;
-  /**
-   * Bank account
-   */
-  bankAccount?: null | number;
+  message?: null | string;
   [k: string]: any;
 }
