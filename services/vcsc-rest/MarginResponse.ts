@@ -6,20 +6,12 @@
  */
 
 /**
- * Account stock balance history response schema
+ * Margin response schema
  */
-export interface AccountBalanceDetailsResponse {
+export interface MarginResponse {
   /**
-   * Date
+   * ratio
    */
-  date?: null | string;
-  /**
-   * Stock code
-   */
-  stockCode?: null | string;
-  /**
-   * Balance quantity
-   */
-  balanceQuantity?: null | number;
+  ratio?: number;
   [k: string]: any;
 }

@@ -8,24 +8,12 @@
 import {BaseRequest} from "../common";
 
 /**
- * Transfer stock balance request schema
+ * Phone Number request schema
  */
-export type TransferStockBalanceRequest = BaseRequest & {
+export type PhoneNumberRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: null | string;
-  /**
-   * Sub number
-   */
-  subNumber?: null | string;
-  /**
-   * Last stock code
-   */
-  lastStockCode?: null | string;
-  /**
-   * Fetch count
-   */
-  fetchCount?: null | number;
+  accountNumber: string;
   [k: string]: any;
 };

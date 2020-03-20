@@ -14,11 +14,11 @@ export type WithdrawHistoryRequest = BaseRequest & {
   /**
    * Status
    */
-  status?: null | string;
+  status: string;
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */

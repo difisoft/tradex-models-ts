@@ -104,6 +104,9 @@ import {
   AccountSellableResponse,
 } from "./AccountSellableResponse";
 import {
+  AccountStockBalanceHistoryRequest,
+} from "./AccountStockBalanceHistoryRequest";
+import {
   AccountSub,
 } from "./AccountSub";
 import {
@@ -308,6 +311,12 @@ import {
   LoanRegisterResponse,
 } from "./LoanRegisterResponse";
 import {
+  MarginRequest,
+} from "./MarginRequest";
+import {
+  MarginResponse,
+} from "./MarginResponse";
+import {
   NormalOrderCancelRequest,
 } from "./NormalOrderCancelRequest";
 import {
@@ -325,6 +334,12 @@ import {
 import {
   OrderTodayUnmatchResponse,
 } from "./OrderTodayUnmatchResponse";
+import {
+  PhoneNumberRequest,
+} from "./PhoneNumberRequest";
+import {
+  PhoneNumberResponse,
+} from "./PhoneNumberResponse";
 import {
   RightsAvailableRequest,
 } from "./RightsAvailableRequest";
@@ -602,6 +617,7 @@ export {
   AccountRiskRatioResponse,
   AccountSellableRequest,
   AccountSellableResponse,
+  AccountStockBalanceHistoryRequest,
   AccountSub,
   AccountSummaryRequest,
   AccountSummaryResponse,
@@ -670,12 +686,16 @@ export {
   LoanHistoryResponse,
   LoanRegisterRequest,
   LoanRegisterResponse,
+  MarginRequest,
+  MarginResponse,
   NormalOrderCancelRequest,
   NormalOrderCancelResponse,
   OrderHistoryRequest,
   OrderHistoryResponse,
   OrderTodayUnmatchRequest,
   OrderTodayUnmatchResponse,
+  PhoneNumberRequest,
+  PhoneNumberResponse,
   RightsAvailableRequest,
   RightsAvailableResponse,
   RightsCancelRequest,

@@ -8,17 +8,17 @@
 import {BaseRequest} from "../common";
 
 /**
- * Account stock balance request schema
+ * Account balance details request schema
  */
 export type AccountBalanceDetailsRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
-  subNumber: null | string;
+  subNumber: string;
   /**
    * Stock code
    */

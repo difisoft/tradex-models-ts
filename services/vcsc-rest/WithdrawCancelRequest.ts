@@ -18,11 +18,11 @@ export type WithdrawCancelRequest = BaseRequest & {
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
    * Bank code
    */
-  bankCode?: null | string;
+  bankCode: string;
   /**
    * Sub number
    */
@@ -30,22 +30,22 @@ export type WithdrawCancelRequest = BaseRequest & {
   /**
    * Bank account
    */
-  bankAccount?: null | string;
+  bankAccount: string;
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sequence number
    */
-  sequenceNumber?: null | string;
+  sequenceNumber: string;
   /**
    * Transaction code
    */
-  transactionCode?: null | string;
+  transactionCode: string;
   /**
    * Transaction type
    */
-  transactionType?: null | string;
+  transactionType: string;
   [k: string]: any;
 };

@@ -8,9 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * Loan history request schema
+ * Account stock balance history request schema
  */
-export type LoanHistoryRequest = BaseRequest & {
+export type AccountStockBalanceHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
@@ -20,25 +20,17 @@ export type LoanHistoryRequest = BaseRequest & {
    */
   subNumber?: null | string;
   /**
-   * Loan bank code
+   * Stock code
    */
-  loanBankCode?: null | string;
-  /**
-   * Last loan date
-   */
-  lastLoanDate?: null | string;
-  /**
-   * Last loan bank code
-   */
-  lastLoanBankCode?: null | string;
-  /**
-   * Last match date
-   */
-  lastMatchDate?: null | string;
+  stockCode?: null | string;
   /**
    * Last stock code
    */
   lastStockCode?: null | string;
+  /**
+   * Date
+   */
+  date: string;
   /**
    * Fetch count
    */

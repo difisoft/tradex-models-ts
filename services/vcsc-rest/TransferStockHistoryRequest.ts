@@ -14,7 +14,7 @@ export type TransferStockHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * Sub number
    */

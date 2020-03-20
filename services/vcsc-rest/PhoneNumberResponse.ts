@@ -6,20 +6,12 @@
  */
 
 /**
- * Account stock balance history response schema
+ * Phone Number Response schema
  */
-export interface AccountBalanceDetailsResponse {
+export interface PhoneNumberResponse {
   /**
-   * Date
+   * phoneNumber
    */
-  date?: null | string;
-  /**
-   * Stock code
-   */
-  stockCode?: null | string;
-  /**
-   * Balance quantity
-   */
-  balanceQuantity?: null | number;
+  phoneNumber?: number;
   [k: string]: any;
 }

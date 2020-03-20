@@ -18,7 +18,7 @@ export type TransferStockRequest = BaseRequest & {
   /**
    * Quantity
    */
-  quantity?: null | number;
+  quantity: number;
   /**
    * Stock code
    */
@@ -30,15 +30,15 @@ export type TransferStockRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Limited quantity
    */
-  limitedQuantity?: null | number;
+  limitedQuantity: number;
   /**
    * Received sub number
    */
-  receivedSubNumber?: null | string;
+  receivedSubNumber: string;
   /**
    * Received account number
    */

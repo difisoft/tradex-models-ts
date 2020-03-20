@@ -18,7 +18,7 @@ export type TransferCashCancelRequest = BaseRequest & {
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
    * Sub number
    */
@@ -26,26 +26,26 @@ export type TransferCashCancelRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sequence number
    */
-  sequenceNumber?: null | string;
+  sequenceNumber: string;
   /**
    * Received sub number
    */
-  receivedSubNumber?: null | string;
+  receivedSubNumber: string;
   /**
    * Send sequence number
    */
-  sendSequenceNumber?: null | string;
+  sendSequenceNumber: string;
   /**
    * Receive sequence number
    */
-  receiveSequenceNumber?: null | string;
+  receiveSequenceNumber: string;
   /**
    * Received account number
    */
-  receivedAccountNumber?: null | string;
+  receivedAccountNumber: string;
   [k: string]: any;
 };

@@ -14,15 +14,15 @@ export type WithdrawRequestRequest = BaseRequest & {
   /**
    * Note
    */
-  note?: null | string;
+  note: string;
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
    * Bank code
    */
-  bankCode?: null | string;
+  bankCode: string;
   /**
    * Sub number
    */
@@ -30,10 +30,10 @@ export type WithdrawRequestRequest = BaseRequest & {
   /**
    * Bank account
    */
-  bankAccount?: null | string;
+  bankAccount: string;
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   [k: string]: any;
 };

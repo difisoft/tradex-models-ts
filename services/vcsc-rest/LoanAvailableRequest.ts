@@ -14,7 +14,7 @@ export type LoanAvailableRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
@@ -22,7 +22,7 @@ export type LoanAvailableRequest = BaseRequest & {
   /**
    * Loan bank code
    */
-  loanBankCode?: null | string;
+  loanBankCode: string;
   /**
    * Last settle bank code
    */
