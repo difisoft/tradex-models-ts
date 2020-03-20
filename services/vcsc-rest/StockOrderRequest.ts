@@ -22,11 +22,11 @@ export type StockOrderRequest = BaseRequest & {
   /**
    * Stock code
    */
-  stockCode?: null | string;
+  stockCode: string;
   /**
    * Order quantity
    */
-  orderQuantity?: number;
+  orderQuantity: number;
   /**
    * Order price
    */
@@ -34,15 +34,15 @@ export type StockOrderRequest = BaseRequest & {
   /**
    * Bank code
    */
-  bankCode?: null | string;
+  bankCode: string;
   /**
-   * Sell buy type, [BUY, SELL, ALL]
+   * Sell buy type, [BUY, SELL]
    */
-  sellBuyType?: null | ("BUY" | "SELL" | "ALL");
+  sellBuyType: "BUY" | "SELL";
   /**
    * Order type, [LO , MP , ATO , ATC , AON , BIG_LOT , MOK , MAK , MTL , IO , SO_GREATER , SO_LESS , SBO , OBO , PLO , ALL]
    */
-  orderType?:
+  orderType:
     | "LO"
     | "MP"
     | "ATO"
@@ -62,11 +62,11 @@ export type StockOrderRequest = BaseRequest & {
   /**
    * Securities type
    */
-  securitiesType?: null | string;
+  securitiesType: null | ("STOCK" | "BOND" | "FUND" | "ETF" | "CW" | "ALL");
   /**
    * Bank account
    */
-  bankAccount?: null | string;
+  bankAccount: string;
   /**
    * Bank name
    */
