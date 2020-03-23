@@ -6,20 +6,108 @@
  */
 
 /**
- * Account stock balance history response schema
+ * Account balance details response schema
  */
 export interface AccountBalanceDetailsResponse {
   /**
-   * Date
-   */
-  date?: null | string;
-  /**
    * Stock code
    */
-  stockCode?: null | string;
+  stockCode?: string;
   /**
-   * Balance quantity
+   * Total balance
    */
-  balanceQuantity?: null | number;
+  totalBalance?: number;
+  /**
+   * Available quantity
+   */
+  availableQuantity?: number;
+  /**
+   * Mortgage quantity
+   */
+  mortgageQuantity?: number;
+  /**
+   * Blockade quantity
+   */
+  blockadeQuantity?: number;
+  /**
+   * T buy quantity
+   */
+  tBuyQuantity?: number;
+  /**
+   * T1 buy quantity
+   */
+  t1BuyQuantity?: number;
+  /**
+   * T2 buy quantity
+   */
+  t2BuyQuantity?: number;
+  /**
+   * T3 buy quantity
+   */
+  t3BuyQuantity?: number;
+  /**
+   * T sell quantity
+   */
+  tSellQuantity?: number;
+  /**
+   * T1 sell quantity
+   */
+  t1SellQuantity?: number;
+  /**
+   * T2 sell quantity
+   */
+  t2SellQuantity?: number;
+  /**
+   * T3 sell quantity
+   */
+  t3SellQuantity?: number;
+  /**
+   * Unmatched sell t
+   */
+  unmatchedSellT?: number;
+  /**
+   * Avg buying price
+   */
+  avgBuyingPrice?: number;
+  /**
+   * Market price
+   */
+  marketPrice?: number;
+  /**
+   * Total buying amount
+   */
+  totalBuyingAmount?: number;
+  /**
+   * Total market value
+   */
+  totalMarketValue?: number;
+  /**
+   * Profit on loss
+   */
+  profitOnLoss?: number;
+  /**
+   * Profit on loss rate
+   */
+  profitOnLossRate?: number;
+  /**
+   * Margin ratio
+   */
+  marginRatio?: number;
+  /**
+   * Bonus shares
+   */
+  bonusShares?: number;
+  /**
+   * Subscriptions quantity
+   */
+  subscriptionsQuantity?: number;
+  /**
+   * Registered subscriptions quantity
+   */
+  registeredSubscriptionsQuantity?: number;
+  /**
+   * Cash dividends
+   */
+  cashDividends?: number;
   [k: string]: any;
 }

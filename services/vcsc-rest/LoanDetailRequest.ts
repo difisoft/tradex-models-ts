@@ -14,7 +14,7 @@ export type LoanDetailRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * Sub number
    */
@@ -22,7 +22,7 @@ export type LoanDetailRequest = BaseRequest & {
   /**
    * Loan bank code
    */
-  loanBankCode?: null | string;
+  loanBankCode: null | string;
   /**
    * Settle bank code
    */
@@ -30,15 +30,15 @@ export type LoanDetailRequest = BaseRequest & {
   /**
    * Match date
    */
-  matchDate?: null | string;
+  matchDate: null | string;
   /**
    * Settle date
    */
-  settleDate?: null | string;
+  settleDate: null | string;
   /**
    * Loan order type
    */
-  loanOrderType?: null | string;
+  loanOrderType: null | string;
   /**
    * Last settle bank code
    */

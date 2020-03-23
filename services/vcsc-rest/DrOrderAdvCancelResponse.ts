@@ -8,32 +8,28 @@
 import {BaseRequest} from "../common";
 
 /**
- * Transfer cash request schema
+ * Dr cancel adv order request schema
  */
-export type TransferCashRequest = BaseRequest & {
+export type DrOrderAdvCancelResponse = BaseRequest & {
   /**
-   * Note
+   * Code
    */
-  note?: null | string;
+  code?: string;
   /**
-   * Amount
+   * Order number
    */
-  amount: null | number;
+  orderNumber?: string;
   /**
-   * Sub number
+   * Trading date
    */
-  subNumber?: null | string;
+  tradingDate?: string;
   /**
    * Account number
    */
-  accountNumber: null | string;
+  accountNumber?: string;
   /**
-   * Received sub number
+   * Market session
    */
-  receivedSubNumber: null | string;
-  /**
-   * Received account number
-   */
-  receivedAccountNumber: null | string;
+  marketSession?: string;
   [k: string]: any;
 };

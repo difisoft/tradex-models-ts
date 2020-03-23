@@ -107,6 +107,9 @@ import {
   AccountStockBalanceHistoryRequest,
 } from "./AccountStockBalanceHistoryRequest";
 import {
+  AccountStockBalanceHistoryResponse,
+} from "./AccountStockBalanceHistoryResponse";
+import {
   AccountSub,
 } from "./AccountSub";
 import {
@@ -203,11 +206,23 @@ import {
   DrModifyNormalOrderResponse,
 } from "./DrModifyNormalOrderResponse";
 import {
+  DrOrderAdvCancelResponse,
+} from "./DrOrderAdvCancelResponse";
+import {
+  DrCancelAdvOrderResponse,
+} from "./DrCancelAdvOrderResponse";
+import {
   DrOrderAdvHistoryRequest,
 } from "./DrOrderAdvHistoryRequest";
 import {
   DrOrderAdvHistoryResponse,
 } from "./DrOrderAdvHistoryResponse";
+import {
+  DrOrderAdvPlaceRequest,
+} from "./DrOrderAdvPlaceRequest";
+import {
+  DrOrderAdvPlaceResponse,
+} from "./DrOrderAdvPlaceResponse";
 import {
   DrOrderAvailableRequest,
 } from "./DrOrderAvailableRequest";
@@ -221,11 +236,35 @@ import {
   DrOrderCancelAllResponse,
 } from "./DrOrderCancelAllResponse";
 import {
+  DrOrderCancelRequest,
+} from "./DrOrderCancelRequest";
+import {
+  DrOrderCancelResponse,
+} from "./DrOrderCancelResponse";
+import {
+  DrOrderHistoryRequest,
+} from "./DrOrderHistoryRequest";
+import {
+  DrOrderHistoryResponse,
+} from "./DrOrderHistoryResponse";
+import {
   DrOrderModifyAllRequest,
 } from "./DrOrderModifyAllRequest";
 import {
   DrOrderModifyAllResponse,
 } from "./DrOrderModifyAllResponse";
+import {
+  DrOrderModifyRequest,
+} from "./DrOrderModifyRequest";
+import {
+  DrOrderModifyResponse,
+} from "./DrOrderModifyResponse";
+import {
+  DrOrderPlaceRequest,
+} from "./DrOrderPlaceRequest";
+import {
+  DrOrderPlaceResponse,
+} from "./DrOrderPlaceResponse";
 import {
   DrOrderStopCancelRequest,
 } from "./DrOrderStopCancelRequest";
@@ -618,6 +657,7 @@ export {
   AccountSellableRequest,
   AccountSellableResponse,
   AccountStockBalanceHistoryRequest,
+  AccountStockBalanceHistoryResponse,
   AccountSub,
   AccountSummaryRequest,
   AccountSummaryResponse,
@@ -650,14 +690,26 @@ export {
   DrHistoryTradeResponse,
   DrModifyNormalOrderRequest,
   DrModifyNormalOrderResponse,
+  DrOrderAdvCancelResponse,
+  DrCancelAdvOrderResponse,
   DrOrderAdvHistoryRequest,
   DrOrderAdvHistoryResponse,
+  DrOrderAdvPlaceRequest,
+  DrOrderAdvPlaceResponse,
   DrOrderAvailableRequest,
   DrOrderAvailableResponse,
   DrOrderCancelAllRequest,
   DrOrderCancelAllResponse,
+  DrOrderCancelRequest,
+  DrOrderCancelResponse,
+  DrOrderHistoryRequest,
+  DrOrderHistoryResponse,
   DrOrderModifyAllRequest,
   DrOrderModifyAllResponse,
+  DrOrderModifyRequest,
+  DrOrderModifyResponse,
+  DrOrderPlaceRequest,
+  DrOrderPlaceResponse,
   DrOrderStopCancelRequest,
   DrOrderStopCancelResponse,
   DrOrderStopHistoryRequest,
