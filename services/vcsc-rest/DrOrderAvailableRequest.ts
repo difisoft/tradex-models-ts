@@ -14,7 +14,7 @@ export type DrOrderAvailableRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Password
    */
@@ -22,7 +22,7 @@ export type DrOrderAvailableRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: null | string;
+  code: string;
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */

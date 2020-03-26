@@ -14,22 +14,22 @@ export type DrOrderMatchRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Password
    */
-  password?: string;
+  password?: null | string;
   /**
    * Favorite list group name
    */
-  favoriteListGroupName?: string;
+  favoriteListGroupName?: null | string;
   /**
    * Last next key
    */
-  lastNextKey?: string;
+  lastNextKey?: null | string;
   /**
    * Fetch count
    */
-  fetchCount?: number;
+  fetchCount?: null | number;
   [k: string]: any;
 };

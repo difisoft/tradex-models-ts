@@ -22,7 +22,7 @@ export type DrHistoryClosedPositionRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Password
    */

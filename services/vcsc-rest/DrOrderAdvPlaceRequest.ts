@@ -14,42 +14,42 @@ export type DrOrderAdvPlaceRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: string;
+  code?: null | string;
   /**
    * To date
    */
-  toDate?: string;
+  toDate?: null | string;
   /**
    * From date
    */
-  fromDate?: string;
+  fromDate?: null | string;
   /**
    * Order type
    */
-  orderType?: string;
+  orderType?: null | string;
   /**
    * Order price
    */
-  orderPrice?: number;
+  orderPrice?: null | number;
   /**
    * Sell buy type
    */
-  sellBuyType?: string;
+  sellBuyType?: null | string;
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Market session
    */
-  marketSession?: string;
+  marketSession?: null | string;
   /**
    * Order quantity
    */
-  orderQuantity?: number;
+  orderQuantity?: null | number;
   /**
    * Advance order type
    */
-  advanceOrderType?: string;
+  advanceOrderType?: null | string;
   [k: string]: any;
 };

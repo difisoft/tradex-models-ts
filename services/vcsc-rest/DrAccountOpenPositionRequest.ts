@@ -14,7 +14,7 @@ export type DrAccountOpenPositionRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Last next key
    */

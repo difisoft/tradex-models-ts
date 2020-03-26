@@ -14,7 +14,7 @@ export type DrHistoryPositionRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Password
    */

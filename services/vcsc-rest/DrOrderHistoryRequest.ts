@@ -14,34 +14,34 @@ export type DrOrderHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Password
    */
-  password?: string;
+  password?: null | string;
   /**
    * Date
    */
-  date?: string;
+  date?: null | string;
   /**
    * Last next key
    */
-  lastNextKey?: string;
+  lastNextKey?: null | string;
   /**
    * Fetch count
    */
-  fetchCount?: number;
+  fetchCount?: null | number;
   /**
    * Branch code
    */
-  branchCode?: string;
+  branchCode?: null | string;
   /**
    * Agency code
    */
-  agencyCode?: string;
+  agencyCode?: null | string;
   /**
    * Emp group id
    */
-  empGroupId?: string;
+  empGroupId?: null | string;
   [k: string]: any;
 };

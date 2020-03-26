@@ -14,7 +14,7 @@ export type DrAccountTradingLimitRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * Password
    */

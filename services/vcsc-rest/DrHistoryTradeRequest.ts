@@ -22,7 +22,7 @@ export type DrHistoryTradeRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Password
    */

@@ -14,7 +14,7 @@ export type DrAccountBalanceRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * From date (YYYYmmdd)
    */
