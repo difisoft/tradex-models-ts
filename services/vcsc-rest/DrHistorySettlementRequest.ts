@@ -8,21 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * Withdraw history request schema
+ * History settlement request schema
  */
-export type WithdrawHistoryRequest = BaseRequest & {
-  /**
-   * Status
-   */
-  status: "PENDING" | "CANCELLED" | "APPROVED";
-  /**
-   * Account number
-   */
-  accountNumber: string;
-  /**
-   * Sub number
-   */
-  subNumber?: null | string;
+export type DrHistorySettlementRequest = BaseRequest & {
   /**
    * From date (YYYYmmdd)
    */
@@ -32,13 +20,21 @@ export type WithdrawHistoryRequest = BaseRequest & {
    */
   toDate?: null | string;
   /**
-   * Last transaction date
+   * Account number
    */
-  lastTransactionDate?: null | string;
+  accountNumber?: null | string;
   /**
-   * Last sequence number
+   * Sub number
    */
-  lastSequenceNumber?: null | number;
+  subNumber?: null | string;
+  /**
+   * Last trading date
+   */
+  lastTradingDate?: null | string;
+  /**
+   * Last settle date
+   */
+  lastSettleDate?: null | string;
   /**
    * Fetch count
    */

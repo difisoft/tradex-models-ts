@@ -8,21 +8,13 @@
 import {BaseRequest} from "../common";
 
 /**
- * Withdraw history request schema
+ * History margin call request schema
  */
-export type WithdrawHistoryRequest = BaseRequest & {
-  /**
-   * Status
-   */
-  status: "PENDING" | "CANCELLED" | "APPROVED";
+export type DrHistoryMarginCallRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: string;
-  /**
-   * Sub number
-   */
-  subNumber?: null | string;
+  accountNumber?: null | string;
   /**
    * From date (YYYYmmdd)
    */
@@ -32,13 +24,9 @@ export type WithdrawHistoryRequest = BaseRequest & {
    */
   toDate?: null | string;
   /**
-   * Last transaction date
+   * Last next key
    */
-  lastTransactionDate?: null | string;
-  /**
-   * Last sequence number
-   */
-  lastSequenceNumber?: null | number;
+  lastNextKey?: null | string;
   /**
    * Fetch count
    */

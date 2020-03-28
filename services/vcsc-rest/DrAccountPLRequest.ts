@@ -8,13 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * Withdraw history request schema
+ * Account profit loss request schema
  */
-export type WithdrawHistoryRequest = BaseRequest & {
-  /**
-   * Status
-   */
-  status: "PENDING" | "CANCELLED" | "APPROVED";
+export type DrAccountPLRequest = BaseRequest & {
   /**
    * Account number
    */
@@ -24,24 +20,24 @@ export type WithdrawHistoryRequest = BaseRequest & {
    */
   subNumber?: null | string;
   /**
-   * From date (YYYYmmdd)
+   * base Date
    */
-  fromDate?: null | string;
+  baseDate?: null | string;
   /**
-   * To date (YYYYmmdd)
-   */
-  toDate?: null | string;
-  /**
-   * Last transaction date
-   */
-  lastTransactionDate?: null | string;
-  /**
-   * Last sequence number
-   */
-  lastSequenceNumber?: null | number;
-  /**
-   * Fetch count
+   * fetch Count
    */
   fetchCount?: null | number;
+  /**
+   * Bank name
+   */
+  bankName?: null | string;
+  /**
+   * Bank code
+   */
+  bankCode?: null | string;
+  /**
+   * Last Stock Code
+   */
+  lastStockCode?: null | string;
   [k: string]: any;
 };

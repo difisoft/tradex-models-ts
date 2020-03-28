@@ -44,12 +44,6 @@ import {
   AccountChangePasswordResponse,
 } from "./AccountChangePasswordResponse";
 import {
-  AccountEquityRequest,
-} from "./AccountEquityRequest";
-import {
-  AccountEquityResponse,
-} from "./AccountEquityResponse";
-import {
   AccountInfoRequest,
 } from "./AccountInfoRequest";
 import {
@@ -67,24 +61,6 @@ import {
 import {
   AccountMobileResponse,
 } from "./AccountMobileResponse";
-import {
-  AccountProfitLossCummulativeRequest,
-} from "./AccountProfitLossCummulativeRequest";
-import {
-  AccountProfitLossCummulativeResponse,
-} from "./AccountProfitLossCummulativeResponse";
-import {
-  AccountProfitLossRequest,
-} from "./AccountProfitLossRequest";
-import {
-  AccountProfitLossResponse,
-} from "./AccountProfitLossResponse";
-import {
-  AccountRiskRatioRequest,
-} from "./AccountRiskRatioRequest";
-import {
-  AccountRiskRatioResponse,
-} from "./AccountRiskRatioResponse";
 import {
   AccountSellableRequest,
 } from "./AccountSellableRequest";
@@ -140,23 +116,11 @@ import {
   BankAccountResponse,
 } from "./BankAccountResponse";
 import {
-  CashTransferInfoRequest,
-} from "./CashTransferInfoRequest";
-import {
-  CashTransferInfoResponse,
-} from "./CashTransferInfoResponse";
-import {
   CashTransferRequestRequest,
 } from "./CashTransferRequestRequest";
 import {
   CashTransferRequestResponse,
 } from "./CashTransferRequestResponse";
-import {
-  CashWithdrawInfoRequest,
-} from "./CashWithdrawInfoRequest";
-import {
-  CashWithdrawInfoResponse,
-} from "./CashWithdrawInfoResponse";
 import {
   CashWithdrawRequestRequest,
 } from "./CashWithdrawRequestRequest";
@@ -170,11 +134,35 @@ import {
   DrAccountBalanceResponse,
 } from "./DrAccountBalanceResponse";
 import {
+  DrAccountEquityRequest,
+} from "./DrAccountEquityRequest";
+import {
+  DrAccountEquityResponse,
+} from "./DrAccountEquityResponse";
+import {
   DrAccountOpenPositionRequest,
 } from "./DrAccountOpenPositionRequest";
 import {
   DrAccountOpenPositionResponse,
 } from "./DrAccountOpenPositionResponse";
+import {
+  DrAccountPLCumulativeRequest,
+} from "./DrAccountPLCumulativeRequest";
+import {
+  DrAccountPLCumulativeResponse,
+} from "./DrAccountPLCumulativeResponse";
+import {
+  DrAccountPLRequest,
+} from "./DrAccountPLRequest";
+import {
+  DrAccountPLResponse,
+} from "./DrAccountPLResponse";
+import {
+  DrAccountRiskRatioRequest,
+} from "./DrAccountRiskRatioRequest";
+import {
+  DrAccountRiskRatioResponse,
+} from "./DrAccountRiskRatioResponse";
 import {
   DrAccountSummaryRequest,
 } from "./DrAccountSummaryRequest";
@@ -194,11 +182,23 @@ import {
   DrAccountUnmatchPositionResponse,
 } from "./DrAccountUnmatchPositionResponse";
 import {
+  DrCashWithdrawInfoRequest,
+} from "./DrCashWithdrawInfoRequest";
+import {
+  DrCashWithdrawInfoResponse,
+} from "./DrCashWithdrawInfoResponse";
+import {
   DrHistoryClosedPositionRequest,
 } from "./DrHistoryClosedPositionRequest";
 import {
   DrHistoryClosedPositionResponse,
 } from "./DrHistoryClosedPositionResponse";
+import {
+  DrHistoryMarginCallRequest,
+} from "./DrHistoryMarginCallRequest";
+import {
+  DrHistoryMarginCallResponse,
+} from "./DrHistoryMarginCallResponse";
 import {
   DrHistoryPositionRequest,
 } from "./DrHistoryPositionRequest";
@@ -206,11 +206,47 @@ import {
   DrHistoryPositionResponse,
 } from "./DrHistoryPositionResponse";
 import {
+  DrHistorySettlementRequest,
+} from "./DrHistorySettlementRequest";
+import {
+  DrHistorySettlementResponse,
+} from "./DrHistorySettlementResponse";
+import {
   DrHistoryTradeRequest,
 } from "./DrHistoryTradeRequest";
 import {
   DrHistoryTradeResponse,
 } from "./DrHistoryTradeResponse";
+import {
+  DrImBankRequest,
+} from "./DrImBankRequest";
+import {
+  DrImBankResponse,
+} from "./DrImBankResponse";
+import {
+  DrImDepositInfoRequest,
+} from "./DrImDepositInfoRequest";
+import {
+  DrImDepositInfoResponse,
+} from "./DrImDepositInfoResponse";
+import {
+  DrImFeeRequest,
+} from "./DrImFeeRequest";
+import {
+  DrImFeeResponse,
+} from "./DrImFeeResponse";
+import {
+  DrImHistoryRequest,
+} from "./DrImHistoryRequest";
+import {
+  DrImHistoryResponse,
+} from "./DrImHistoryResponse";
+import {
+  DrImWithdrawInfoRequest,
+} from "./DrImWithdrawInfoRequest";
+import {
+  DrImWithdrawInfoResponse,
+} from "./DrImWithdrawInfoResponse";
 import {
   DrModifyNormalOrderRequest,
 } from "./DrModifyNormalOrderRequest";
@@ -314,17 +350,17 @@ import {
   DrOrderUnmatchListResponse,
 } from "./DrOrderUnmatchListResponse";
 import {
-  HistoryMarginCallRequest,
-} from "./HistoryMarginCallRequest";
+  DrTransferCashInfoRequest,
+} from "./DrTransferCashInfoRequest";
 import {
-  HistoryMarginCallResponse,
-} from "./HistoryMarginCallResponse";
+  DrTransferCashInfoResponse,
+} from "./DrTransferCashInfoResponse";
 import {
-  HistorySettlementRequest,
-} from "./HistorySettlementRequest";
+  DrWithdrawCashFeeRequest,
+} from "./DrWithdrawCashFeeRequest";
 import {
-  HistorySettlementResponse,
-} from "./HistorySettlementResponse";
+  DrWithdrawCashFeeResponse,
+} from "./DrWithdrawCashFeeResponse";
 import {
   LoanAvailableRequest,
 } from "./LoanAvailableRequest";
@@ -530,41 +566,11 @@ import {
   TransferCashResponse,
 } from "./TransferCashResponse";
 import {
-  TransferImBankRequest,
-} from "./TransferImBankRequest";
-import {
-  TransferImBankResponse,
-} from "./TransferImBankResponse";
-import {
-  TransferImDepositeInfoRequest,
-} from "./TransferImDepositeInfoRequest";
-import {
-  TransferImDepositeInfoResponse,
-} from "./TransferImDepositeInfoResponse";
-import {
   TransferImDepositeRequest,
 } from "./TransferImDepositeRequest";
 import {
   TransferImDepositeResponse,
 } from "./TransferImDepositeResponse";
-import {
-  TransferImFeeRequest,
-} from "./TransferImFeeRequest";
-import {
-  TransferImFeeResponse,
-} from "./TransferImFeeResponse";
-import {
-  TransferImHistoryRequest,
-} from "./TransferImHistoryRequest";
-import {
-  TransferImHistoryResponse,
-} from "./TransferImHistoryResponse";
-import {
-  TransferImWithdrawInfoRequest,
-} from "./TransferImWithdrawInfoRequest";
-import {
-  TransferImWithdrawInfoResponse,
-} from "./TransferImWithdrawInfoResponse";
 import {
   TransferImWithdrawRequestRequest,
 } from "./TransferImWithdrawRequestRequest";
@@ -642,20 +648,12 @@ export {
   AccountChangeHtsPasswordResponse,
   AccountChangePasswordRequest,
   AccountChangePasswordResponse,
-  AccountEquityRequest,
-  AccountEquityResponse,
   AccountInfoRequest,
   AccountInfoResponse,
   AccountLoanHistoryRequest,
   AccountLoanHistoryResponse,
   AccountMobileRequest,
   AccountMobileResponse,
-  AccountProfitLossCummulativeRequest,
-  AccountProfitLossCummulativeResponse,
-  AccountProfitLossRequest,
-  AccountProfitLossResponse,
-  AccountRiskRatioRequest,
-  AccountRiskRatioResponse,
   AccountSellableRequest,
   AccountSellableResponse,
   AccountStockBalanceHistoryRequest,
@@ -674,30 +672,50 @@ export {
   Bank,
   BankAccountRequest,
   BankAccountResponse,
-  CashTransferInfoRequest,
-  CashTransferInfoResponse,
   CashTransferRequestRequest,
   CashTransferRequestResponse,
-  CashWithdrawInfoRequest,
-  CashWithdrawInfoResponse,
   CashWithdrawRequestRequest,
   CashWithdrawRequestResponse,
   DrAccountBalanceRequest,
   DrAccountBalanceResponse,
+  DrAccountEquityRequest,
+  DrAccountEquityResponse,
   DrAccountOpenPositionRequest,
   DrAccountOpenPositionResponse,
+  DrAccountPLCumulativeRequest,
+  DrAccountPLCumulativeResponse,
+  DrAccountPLRequest,
+  DrAccountPLResponse,
+  DrAccountRiskRatioRequest,
+  DrAccountRiskRatioResponse,
   DrAccountSummaryRequest,
   DrAccountSummaryResponse,
   DrAccountTradingLimitRequest,
   DrAccountTradingLimitResponse,
   DrAccountUnmatchPositionRequest,
   DrAccountUnmatchPositionResponse,
+  DrCashWithdrawInfoRequest,
+  DrCashWithdrawInfoResponse,
   DrHistoryClosedPositionRequest,
   DrHistoryClosedPositionResponse,
+  DrHistoryMarginCallRequest,
+  DrHistoryMarginCallResponse,
   DrHistoryPositionRequest,
   DrHistoryPositionResponse,
+  DrHistorySettlementRequest,
+  DrHistorySettlementResponse,
   DrHistoryTradeRequest,
   DrHistoryTradeResponse,
+  DrImBankRequest,
+  DrImBankResponse,
+  DrImDepositInfoRequest,
+  DrImDepositInfoResponse,
+  DrImFeeRequest,
+  DrImFeeResponse,
+  DrImHistoryRequest,
+  DrImHistoryResponse,
+  DrImWithdrawInfoRequest,
+  DrImWithdrawInfoResponse,
   DrModifyNormalOrderRequest,
   DrModifyNormalOrderResponse,
   DrOrderAdvCancelResponse,
@@ -732,10 +750,10 @@ export {
   DrOrderStopResponse,
   DrOrderUnmatchListRequest,
   DrOrderUnmatchListResponse,
-  HistoryMarginCallRequest,
-  HistoryMarginCallResponse,
-  HistorySettlementRequest,
-  HistorySettlementResponse,
+  DrTransferCashInfoRequest,
+  DrTransferCashInfoResponse,
+  DrWithdrawCashFeeRequest,
+  DrWithdrawCashFeeResponse,
   LoanAvailableRequest,
   LoanAvailableResponse,
   LoanBanksRequest,
@@ -804,18 +822,8 @@ export {
   TransferCashHistoryResponse,
   TransferCashRequest,
   TransferCashResponse,
-  TransferImBankRequest,
-  TransferImBankResponse,
-  TransferImDepositeInfoRequest,
-  TransferImDepositeInfoResponse,
   TransferImDepositeRequest,
   TransferImDepositeResponse,
-  TransferImFeeRequest,
-  TransferImFeeResponse,
-  TransferImHistoryRequest,
-  TransferImHistoryResponse,
-  TransferImWithdrawInfoRequest,
-  TransferImWithdrawInfoResponse,
   TransferImWithdrawRequestRequest,
   TransferImWithdrawRequestResponse,
   TransferStockBalanceRequest,

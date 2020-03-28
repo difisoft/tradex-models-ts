@@ -8,21 +8,17 @@
 import {BaseRequest} from "../common";
 
 /**
- * Withdraw history request schema
+ * Transfer im history request schema
  */
-export type WithdrawHistoryRequest = BaseRequest & {
-  /**
-   * Status
-   */
-  status: "PENDING" | "CANCELLED" | "APPROVED";
+export type DrImHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber: string;
+  accountNumber?: null | string;
   /**
-   * Sub number
+   * Type
    */
-  subNumber?: null | string;
+  type?: null | string;
   /**
    * From date (YYYYmmdd)
    */
@@ -38,7 +34,7 @@ export type WithdrawHistoryRequest = BaseRequest & {
   /**
    * Last sequence number
    */
-  lastSequenceNumber?: null | number;
+  lastSequenceNumber?: null | string;
   /**
    * Fetch count
    */
