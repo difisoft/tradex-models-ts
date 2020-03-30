@@ -14,6 +14,6 @@ export type DrCashWithdrawInfoRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   [k: string]: any;
 };

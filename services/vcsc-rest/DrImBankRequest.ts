@@ -14,10 +14,10 @@ export type DrImBankRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Type
    */
-  type?: null | string;
+  type: string;
   [k: string]: any;
 };

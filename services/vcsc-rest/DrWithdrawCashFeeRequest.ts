@@ -14,18 +14,18 @@ export type DrWithdrawCashFeeRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * source Bank
    */
-  sourceBank?: null | string;
+  sourceBank: string;
   /**
    * dest Bank
    */
-  destBank?: null | string;
+  destBank: string;
   /**
    * amount
    */
-  amount?: null | number;
+  amount: string;
   [k: string]: any;
 };

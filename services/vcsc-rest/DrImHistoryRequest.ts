@@ -14,11 +14,11 @@ export type DrImHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Type
    */
-  type?: null | string;
+  type: string;
   /**
    * From date (YYYYmmdd)
    */

@@ -10,114 +10,98 @@
  */
 export interface DrAccountPLResponse {
   /**
-   * Net asset
+   * closedLongQuantity
    */
-  netAsset?: null | number;
+  closedLongQuantity?: null | number;
   /**
-   * T1 deposit
+   * closedShortQuantity
    */
-  t1Deposit?: null | number;
+  closedShortQuantity?: null | number;
   /**
-   * T2 deposit
+   * realizedPL
    */
-  t2Deposit?: null | number;
+  realizedPL?: null | number;
   /**
    * T trade value
    */
   tTradeValue?: null | number;
   /**
-   * Deposit amount
+   * fee
    */
-  depositAmount?: null | number;
+  fee?: null | number;
   /**
-   * Total buy amount
+   * tax
    */
-  totalBuyAmount?: null | number;
+  tax?: null | number;
+  /**
+   * netProfitLoss
+   */
+  netProfitLoss?: null | number;
+  /**
+   * long Quantity
+   */
+  longQuantity?: null | number;
+  /**
+   * short Quantity
+   */
+  shortQuantity?: null | number;
+  /**
+   * unrealized PL
+   */
+  unrealizedPL?: null | number;
   /**
    * profitLossItems
    */
   profitLossItems?: {
     /**
-     * T1 buy
+     * code
      */
-    t1Buy?: null | number;
+    code?: null | number;
     /**
-     * T2 buy
+     * last Price
      */
-    t2Buy?: null | number;
+    lastPrice?: null | number;
     /**
-     * T1 sell
+     * closed Long Quantity
      */
-    t1Sell?: null | number;
+    closedLongQuantity?: null | number;
     /**
-     * T2 sell
+     * closed Short Quantity
      */
-    t2Sell?: null | number;
+    closedShortQuantity?: null | number;
     /**
-     * Today buy
+     * realized PL
      */
-    todayBuy?: null | number;
+    realizedPL?: null | number;
     /**
-     * Stock code
+     * fee
      */
-    stockCode?: null | string;
+    fee?: null | string;
     /**
-     * Today sell
+     * tax
      */
-    todaySell?: null | number;
+    tax?: null | number;
     /**
-     * Profit loss
+     * net Profit Loss
      */
-    profitLoss?: null | number;
+    netProfitLoss?: null | number;
     /**
-     * Buying price
+     * long Quantity
      */
-    buyingPrice?: null | number;
+    longQuantity?: null | number;
     /**
-     * Buying amount
+     * short Quantity
      */
-    buyingAmount?: null | number;
+    shortQuantity?: null | number;
     /**
-     * Current price
+     * unrealized PL
      */
-    currentPrice?: null | number;
+    unrealizedPL?: null | number;
     /**
-     * Buying quantity
+     * next Key
      */
-    buyingQuantity?: null | number;
-    /**
-     * Profit loss rate
-     */
-    profitLossRate?: null | number;
-    /**
-     * Balance quantity
-     */
-    balanceQuantity?: null | number;
-    /**
-     * Evaluation amount
-     */
-    evaluationAmount?: null | number;
-    /**
-     * Sellable quantity
-     */
-    sellableQuantity?: null | number;
+    nextKey?: null | number;
     [k: string]: any;
   }[];
-  /**
-   * Total profit loss
-   */
-  totalProfitLoss?: null | number;
-  /**
-   * Estimated deposit
-   */
-  estimatedDeposit?: null | number;
-  /**
-   * Total profit loss rate
-   */
-  totalProfitLossRate?: null | number;
-  /**
-   * Total evaluation amount
-   */
-  totalEvaluationAmount?: null | number;
   [k: string]: any;
 }

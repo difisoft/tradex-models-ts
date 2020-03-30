@@ -14,7 +14,7 @@ export type DrImDepositInfoRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */

@@ -8,17 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * History settlement request schema
+ * Account profit loss request schema
  */
-export type DrHistorySettlementRequest = BaseRequest & {
-  /**
-   * From date (YYYYmmdd)
-   */
-  fromDate?: null | string;
-  /**
-   * To date (YYYYmmdd)
-   */
-  toDate?: null | string;
+export type AccountProfitLossRequest = BaseRequest & {
   /**
    * Account number
    */
@@ -28,16 +20,24 @@ export type DrHistorySettlementRequest = BaseRequest & {
    */
   subNumber?: null | string;
   /**
-   * Last trading date
+   * base Date
    */
-  lastTradingDate?: null | string;
+  baseDate?: null | string;
   /**
-   * Last settle date
-   */
-  lastSettleDate?: null | string;
-  /**
-   * Fetch count
+   * fetch Count
    */
   fetchCount?: null | number;
+  /**
+   * Bank name
+   */
+  bankName?: null | string;
+  /**
+   * Bank code
+   */
+  bankCode?: null | string;
+  /**
+   * Last Stock Code
+   */
+  lastStockCode?: null | string;
   [k: string]: any;
 };

@@ -16,28 +16,20 @@ export type DrAccountPLRequest = BaseRequest & {
    */
   accountNumber: string;
   /**
-   * Sub number
+   * from Date
    */
-  subNumber?: null | string;
+  fromDate?: null | string;
   /**
-   * base Date
+   * to Date
    */
-  baseDate?: null | string;
+  toDate?: null | string;
   /**
    * fetch Count
    */
   fetchCount?: null | number;
   /**
-   * Bank name
+   * last Next Key
    */
-  bankName?: null | string;
-  /**
-   * Bank code
-   */
-  bankCode?: null | string;
-  /**
-   * Last Stock Code
-   */
-  lastStockCode?: null | string;
+  lastNextKey?: null | string;
   [k: string]: any;
 };

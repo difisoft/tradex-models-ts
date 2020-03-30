@@ -14,10 +14,10 @@ export type DrTransferCashInfoRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sub number
    */
-  subNumber?: null | string;
+  subNumber: string;
   [k: string]: any;
 };

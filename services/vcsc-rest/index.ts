@@ -62,6 +62,12 @@ import {
   AccountMobileResponse,
 } from "./AccountMobileResponse";
 import {
+  AccountProfitLossRequest,
+} from "./AccountProfitLossRequest";
+import {
+  AccountProfitLossResponse,
+} from "./AccountProfitLossResponse";
+import {
   AccountSellableRequest,
 } from "./AccountSellableRequest";
 import {
@@ -654,6 +660,8 @@ export {
   AccountLoanHistoryResponse,
   AccountMobileRequest,
   AccountMobileResponse,
+  AccountProfitLossRequest,
+  AccountProfitLossResponse,
   AccountSellableRequest,
   AccountSellableResponse,
   AccountStockBalanceHistoryRequest,

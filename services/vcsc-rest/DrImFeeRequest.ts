@@ -14,22 +14,22 @@ export type DrImFeeRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Sending bank
    */
-  sendingBank?: null | string;
+  sendingBank: string;
   /**
    * Receiving bank
    */
-  receivingBank?: null | string;
+  receivingBank: string;
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
    * Type
    */
-  type?: null | string;
+  type: string;
   [k: string]: any;
 };

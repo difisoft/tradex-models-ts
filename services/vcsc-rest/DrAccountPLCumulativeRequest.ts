@@ -14,7 +14,7 @@ export type DrAccountPLCumulativeRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: null | string;
   /**
    * From date (YYYYmmdd)
    */
