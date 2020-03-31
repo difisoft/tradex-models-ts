@@ -10,10 +10,6 @@
  */
 export interface DrImBankResponse {
   /**
-   * total remaining unread notification
-   */
-  totalUnread?: null | number;
-  /**
    * Bank account name
    */
   bankAccountName?: null | string;
