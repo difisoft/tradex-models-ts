@@ -8,9 +8,9 @@
 import {BaseRequest} from "../common";
 
 /**
- * Cash withdraw request request schema
+ * Transfer im withdraw request request schema
  */
-export type CashWithdrawRequestRequest = BaseRequest & {
+export type DrImWithdrawRequestRequest = BaseRequest & {
   /**
    * Note
    */
@@ -18,18 +18,34 @@ export type CashWithdrawRequestRequest = BaseRequest & {
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
-   * Bank code
+   * Fee type
    */
-  bankCode?: null | string;
+  feeType: string;
   /**
-   * Bank account
+   * Dest bank
    */
-  bankAccount?: null | string;
+  destBank: string;
+  /**
+   * Fee amount
+   */
+  feeAmount: number;
+  /**
+   * Source bank
+   */
+  sourceBank: string;
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
+  /**
+   * Adjusted amount
+   */
+  adjustedAmount: number;
+  /**
+   * Received amount
+   */
+  receivedAmount: number;
   [k: string]: any;
 };

@@ -1,3 +1,3 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//# sourceMappingURL=CashWithdrawRequestResponse.js.map
+//# sourceMappingURL=DrImDepositRequestRequest.js.map

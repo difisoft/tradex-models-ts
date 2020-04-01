@@ -8,7 +8,7 @@
 /**
  * Cash withdraw request response schema
  */
-export interface CashWithdrawRequestResponse {
+export interface DrCashWithdrawRequestResponse {
   /**
    * Fee
    */

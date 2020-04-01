@@ -122,18 +122,6 @@ import {
   BankAccountResponse,
 } from "./BankAccountResponse";
 import {
-  CashTransferRequestRequest,
-} from "./CashTransferRequestRequest";
-import {
-  CashTransferRequestResponse,
-} from "./CashTransferRequestResponse";
-import {
-  CashWithdrawRequestRequest,
-} from "./CashWithdrawRequestRequest";
-import {
-  CashWithdrawRequestResponse,
-} from "./CashWithdrawRequestResponse";
-import {
   DrAccountBalanceRequest,
 } from "./DrAccountBalanceRequest";
 import {
@@ -194,6 +182,12 @@ import {
   DrCashWithdrawInfoResponse,
 } from "./DrCashWithdrawInfoResponse";
 import {
+  DrCashWithdrawRequestRequest,
+} from "./DrCashWithdrawRequestRequest";
+import {
+  DrCashWithdrawRequestResponse,
+} from "./DrCashWithdrawRequestResponse";
+import {
   DrHistoryClosedPositionRequest,
 } from "./DrHistoryClosedPositionRequest";
 import {
@@ -236,6 +230,12 @@ import {
   DrImDepositInfoResponse,
 } from "./DrImDepositInfoResponse";
 import {
+  DrImDepositRequestRequest,
+} from "./DrImDepositRequestRequest";
+import {
+  DrImDepositRequestResponse,
+} from "./DrImDepositRequestResponse";
+import {
   DrImFeeRequest,
 } from "./DrImFeeRequest";
 import {
@@ -253,6 +253,12 @@ import {
 import {
   DrImWithdrawInfoResponse,
 } from "./DrImWithdrawInfoResponse";
+import {
+  DrImWithdrawRequestRequest,
+} from "./DrImWithdrawRequestRequest";
+import {
+  DrImWithdrawRequestResponse,
+} from "./DrImWithdrawRequestResponse";
 import {
   DrModifyNormalOrderRequest,
 } from "./DrModifyNormalOrderRequest";
@@ -361,6 +367,12 @@ import {
 import {
   DrTransferCashInfoResponse,
 } from "./DrTransferCashInfoResponse";
+import {
+  DrTransferCashRequestRequest,
+} from "./DrTransferCashRequestRequest";
+import {
+  DrTransferCashRequestResponse,
+} from "./DrTransferCashRequestResponse";
 import {
   DrWithdrawCashFeeRequest,
 } from "./DrWithdrawCashFeeRequest";
@@ -572,18 +584,6 @@ import {
   TransferCashResponse,
 } from "./TransferCashResponse";
 import {
-  TransferImDepositeRequest,
-} from "./TransferImDepositeRequest";
-import {
-  TransferImDepositeResponse,
-} from "./TransferImDepositeResponse";
-import {
-  TransferImWithdrawRequestRequest,
-} from "./TransferImWithdrawRequestRequest";
-import {
-  TransferImWithdrawRequestResponse,
-} from "./TransferImWithdrawRequestResponse";
-import {
   TransferStockBalanceRequest,
 } from "./TransferStockBalanceRequest";
 import {
@@ -680,10 +680,6 @@ export {
   Bank,
   BankAccountRequest,
   BankAccountResponse,
-  CashTransferRequestRequest,
-  CashTransferRequestResponse,
-  CashWithdrawRequestRequest,
-  CashWithdrawRequestResponse,
   DrAccountBalanceRequest,
   DrAccountBalanceResponse,
   DrAccountEquityRequest,
@@ -704,6 +700,8 @@ export {
   DrAccountUnmatchPositionResponse,
   DrCashWithdrawInfoRequest,
   DrCashWithdrawInfoResponse,
+  DrCashWithdrawRequestRequest,
+  DrCashWithdrawRequestResponse,
   DrHistoryClosedPositionRequest,
   DrHistoryClosedPositionResponse,
   DrHistoryMarginCallRequest,
@@ -718,12 +716,16 @@ export {
   DrImBankResponse,
   DrImDepositInfoRequest,
   DrImDepositInfoResponse,
+  DrImDepositRequestRequest,
+  DrImDepositRequestResponse,
   DrImFeeRequest,
   DrImFeeResponse,
   DrImHistoryRequest,
   DrImHistoryResponse,
   DrImWithdrawInfoRequest,
   DrImWithdrawInfoResponse,
+  DrImWithdrawRequestRequest,
+  DrImWithdrawRequestResponse,
   DrModifyNormalOrderRequest,
   DrModifyNormalOrderResponse,
   DrOrderAdvCancelRequest,
@@ -760,6 +762,8 @@ export {
   DrOrderUnmatchListResponse,
   DrTransferCashInfoRequest,
   DrTransferCashInfoResponse,
+  DrTransferCashRequestRequest,
+  DrTransferCashRequestResponse,
   DrWithdrawCashFeeRequest,
   DrWithdrawCashFeeResponse,
   LoanAvailableRequest,
@@ -830,10 +834,6 @@ export {
   TransferCashHistoryResponse,
   TransferCashRequest,
   TransferCashResponse,
-  TransferImDepositeRequest,
-  TransferImDepositeResponse,
-  TransferImWithdrawRequestRequest,
-  TransferImWithdrawRequestResponse,
   TransferStockBalanceRequest,
   TransferStockBalanceResponse,
   TransferStockHistoryRequest,

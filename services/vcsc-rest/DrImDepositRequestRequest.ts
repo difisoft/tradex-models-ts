@@ -10,7 +10,7 @@ import {BaseRequest} from "../common";
 /**
  * Transfer im deposite request schema
  */
-export type TransferImDepositeRequest = BaseRequest & {
+export type DrImDepositRequestRequest = BaseRequest & {
   /**
    * Note
    */
@@ -18,34 +18,34 @@ export type TransferImDepositeRequest = BaseRequest & {
   /**
    * Amount
    */
-  amount?: null | number;
+  amount: number;
   /**
    * Fee type
    */
-  feeType?: null | string;
+  feeType: string;
   /**
    * Dest bank
    */
-  destBank?: null | string;
+  destBank: string;
   /**
    * Fee amount
    */
-  feeAmount?: null | number;
+  feeAmount: number;
   /**
    * Source bank
    */
-  sourceBank?: null | string;
+  sourceBank: string;
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Adjusted amount
    */
-  adjustedAmount?: null | number;
+  adjustedAmount: number;
   /**
    * Received amount
    */
-  receivedAmount?: null | number;
+  receivedAmount: number;
   [k: string]: any;
 };

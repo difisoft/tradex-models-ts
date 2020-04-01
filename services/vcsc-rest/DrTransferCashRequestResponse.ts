@@ -8,7 +8,7 @@
 /**
  * Cash transfer request response schema
  */
-export interface CashTransferRequestResponse {
+export interface DrTransferCashRequestResponse {
   /**
    * In cash balance
    */

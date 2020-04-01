@@ -6,9 +6,9 @@
  */
 
 /**
- * Transfer im withdraw request response schema
+ * Transfer im deposite response schema
  */
-export interface TransferImWithdrawRequestResponse {
+export interface DrImDepositRequestResponse {
   /**
    * Message
    */
