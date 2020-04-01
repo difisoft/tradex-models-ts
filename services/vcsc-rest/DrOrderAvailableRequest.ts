@@ -32,8 +32,8 @@ export type DrOrderAvailableRequest = BaseRequest & {
    */
   orderPrice?: null | number;
   /**
-   * =0order type
+   * order type
    */
-  "=0orderType"?: null | string;
+  orderType?: null | string;
   [k: string]: any;
 };

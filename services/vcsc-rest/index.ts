@@ -260,8 +260,8 @@ import {
   DrModifyNormalOrderResponse,
 } from "./DrModifyNormalOrderResponse";
 import {
-  DrOrderAdvCancelResponse,
-} from "./DrOrderAdvCancelResponse";
+  DrOrderAdvCancelRequest,
+} from "./DrOrderAdvCancelRequest";
 import {
   DrCancelAdvOrderResponse,
 } from "./DrCancelAdvOrderResponse";
@@ -726,7 +726,7 @@ export {
   DrImWithdrawInfoResponse,
   DrModifyNormalOrderRequest,
   DrModifyNormalOrderResponse,
-  DrOrderAdvCancelResponse,
+  DrOrderAdvCancelRequest,
   DrCancelAdvOrderResponse,
   DrOrderAdvHistoryRequest,
   DrOrderAdvHistoryResponse,

@@ -14,50 +14,50 @@ export type DrOrderCancelRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: string;
+  code: string;
   /**
    * Heg yn
    */
-  hegYn?: string;
+  hegYn?: null | string;
   /**
    * Reg yn
    */
-  regYn?: string;
+  regYn?: null | string;
   /**
    * Password
    */
-  password?: string;
+  password?: null | string;
   /**
    * Validity
    */
-  validity?: string;
+  validity?: null | string;
   /**
    * Order type
    */
-  orderType?: string;
+  orderType: string;
   /**
    * Stop price
    */
-  stopPrice?: string;
+  stopPrice?: null | string;
   /**
    * Order price
    */
-  orderPrice?: number;
+  orderPrice: number;
   /**
    * Order number
    */
-  orderNumber?: string;
+  orderNumber: string;
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Order quantity
    */
-  orderQuantity?: number;
+  orderQuantity: number;
   /**
    * Unmatched quantity
    */
-  unmatchedQuantity?: number;
+  unmatchedQuantity: number;
   [k: string]: any;
 };

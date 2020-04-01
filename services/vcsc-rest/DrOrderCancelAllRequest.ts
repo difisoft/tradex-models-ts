@@ -42,6 +42,6 @@ export type DrOrderCancelAllRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   [k: string]: any;
 };

@@ -38,7 +38,7 @@ export type DrOrderModifyAllRequest = BaseRequest & {
   /**
    * Futures code
    */
-  futuresCode?: null | string;
+  futuresCode: string;
   /**
    * Sell buy type, [BUY, SELL, ALL]
    */
@@ -46,10 +46,10 @@ export type DrOrderModifyAllRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * New order price
    */
-  newOrderPrice?: null | number;
+  newOrderPrice: number;
   [k: string]: any;
 };

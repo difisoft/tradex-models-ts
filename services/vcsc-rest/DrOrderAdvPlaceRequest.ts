@@ -14,7 +14,7 @@ export type DrOrderAdvPlaceRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: null | string;
+  code: string;
   /**
    * To date
    */
@@ -26,15 +26,15 @@ export type DrOrderAdvPlaceRequest = BaseRequest & {
   /**
    * Order type
    */
-  orderType?: null | string;
+  orderType: string;
   /**
    * Order price
    */
-  orderPrice?: null | number;
+  orderPrice: number;
   /**
    * Sell buy type
    */
-  sellBuyType?: null | string;
+  sellBuyType: string;
   /**
    * Account number
    */
@@ -42,14 +42,14 @@ export type DrOrderAdvPlaceRequest = BaseRequest & {
   /**
    * Market session
    */
-  marketSession?: null | string;
+  marketSession: string;
   /**
    * Order quantity
    */
-  orderQuantity?: null | number;
+  orderQuantity: number;
   /**
    * Advance order type
    */
-  advanceOrderType?: null | string;
+  advanceOrderType: null | ("AO" | "CAO");
   [k: string]: any;
 };

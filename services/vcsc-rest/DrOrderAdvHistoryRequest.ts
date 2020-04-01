@@ -14,7 +14,7 @@ export type DrOrderAdvHistoryRequest = BaseRequest & {
   /**
    * Account number
    */
-  accountNumber?: null | string;
+  accountNumber: string;
   /**
    * Password
    */
@@ -22,7 +22,7 @@ export type DrOrderAdvHistoryRequest = BaseRequest & {
   /**
    * Advance order type
    */
-  advanceOrderType?: null | string;
+  advanceOrderType?: null | ("AO" | "CAO");
   /**
    * From date (YYYYmmdd)
    */
@@ -32,17 +32,17 @@ export type DrOrderAdvHistoryRequest = BaseRequest & {
    */
   toDate?: null | string;
   /**
-   * Register type
+   * Register type (0. ALL, 1: Edit or Modify, 2: Cancel)
    */
-  registerType?: null | string;
+  registerType?: null | ("0" | "1" | "2");
   /**
-   * Order send
+   * Order send, (0. ALL, 1. Send, 2.Net send 3.Reject, 4.Cancel)
    */
-  orderSend?: null | string;
+  orderSend?: null | ("0" | "1" | "2" | "3" | "4");
   /**
    * Matched status
    */
-  matchedStatus?: null | string;
+  matchedStatus?: null | ("ALL" | "UNMATCHED" | "PARTIALLY_MATCHED" | "FULLY_MATCHED");
   /**
    * Validity
    */
@@ -64,9 +64,9 @@ export type DrOrderAdvHistoryRequest = BaseRequest & {
    */
   sellBuyType?: null | ("BUY" | "SELL" | "ALL");
   /**
-   * Roll over type
+   * Roll over type, (0. All, 1. Roll Over CAO, 2. No Roll Over CAO)
    */
-  rollOverType?: null | string;
+  rollOverType?: null | ("0" | "1" | "2");
   /**
    * Last next key
    */

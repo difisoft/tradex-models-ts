@@ -66,6 +66,6 @@ export type AdvOrderPlaceRequest = BaseRequest & {
   /**
    * Advance order type
    */
-  advanceOrderType?: null | string;
+  advanceOrderType?: null | ("AO" | "CAO");
   [k: string]: any;
 };

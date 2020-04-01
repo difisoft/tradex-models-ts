@@ -14,50 +14,50 @@ export type DrOrderPlaceRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: string;
+  code: string;
   /**
    * Heg yn
    */
-  hegYn?: string;
+  hegYn?: null | string;
   /**
    * Reg yn
    */
-  regYn?: string;
+  regYn?: null | string;
   /**
    * Password
    */
-  password?: string;
+  password?: null | string;
   /**
    * Order type
    */
-  orderType?: string;
+  orderType?: null | string;
   /**
    * Order price
    */
-  orderPrice?: number;
+  orderPrice: number;
   /**
    * Sell buy type
    */
-  sellBuyType?: string;
+  sellBuyType: string;
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Order quantity
    */
-  orderQuantity?: number;
+  orderQuantity: number;
   /**
    * Order condition
    */
-  orderCondition?: string;
+  orderCondition?: null | string;
   /**
    * Stop order price
    */
-  stopOrderPrice?: string;
+  stopOrderPrice?: null | string;
   /**
    * Min match quantity
    */
-  minMatchQuantity?: string;
+  minMatchQuantity?: null | string;
   [k: string]: any;
 };

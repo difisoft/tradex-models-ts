@@ -18,7 +18,7 @@ export type DrOrderModifyRequest = BaseRequest & {
   /**
    * code
    */
-  code?: null | string;
+  code: string;
   /**
    * Order quantity
    */
@@ -54,7 +54,7 @@ export type DrOrderModifyRequest = BaseRequest & {
   /**
    * unmatched Quantity
    */
-  unmatchedQuantity?: null | number;
+  unmatchedQuantity: number;
   /**
    * password
    */

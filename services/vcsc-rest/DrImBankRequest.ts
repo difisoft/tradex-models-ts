@@ -18,6 +18,6 @@ export type DrImBankRequest = BaseRequest & {
   /**
    * Type
    */
-  type: string;
+  type: "DEPOSIT_FROM" | "DEPOSIT_TO" | "WITHDRAW_FROM" | "WITHDRAW_TO";
   [k: string]: any;
 };

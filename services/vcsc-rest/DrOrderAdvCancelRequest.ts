@@ -10,26 +10,26 @@ import {BaseRequest} from "../common";
 /**
  * Dr cancel adv order request schema
  */
-export type DrOrderAdvCancelResponse = BaseRequest & {
+export type DrOrderAdvCancelRequest = BaseRequest & {
   /**
    * Code
    */
-  code?: string;
+  code: string;
   /**
    * Order number
    */
-  orderNumber?: string;
+  orderNumber: string;
   /**
    * Trading date
    */
-  tradingDate?: string;
+  tradingDate: string;
   /**
    * Account number
    */
-  accountNumber?: string;
+  accountNumber: string;
   /**
    * Market session
    */
-  marketSession?: string;
+  marketSession: string;
   [k: string]: any;
 };
