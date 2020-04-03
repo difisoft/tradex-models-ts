@@ -11,6 +11,6 @@ import {BaseRequest} from "../common";
  * symbolStaticInfoRequest schema
  */
 export type SymbolStaticInfoRequest = BaseRequest & {
-  symbolList: string[];
+  symbolList?: string[];
   [k: string]: any;
 };
