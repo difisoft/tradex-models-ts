@@ -30,15 +30,15 @@ export type DrOrderPlaceRequest = BaseRequest & {
   /**
    * Order type
    */
-  orderType?: null | string;
+  orderType?: "MP" | "LO" | "ATO" | "MAK" | "MOK" | "ATC" | "MTL" | "ALL";
   /**
    * Order price
    */
   orderPrice: number;
   /**
-   * Sell buy type
+   * Sell buy type, [BUY, SELL, ALL]
    */
-  sellBuyType: string;
+  sellBuyType: "BUY" | "SELL" | "ALL";
   /**
    * Account number
    */

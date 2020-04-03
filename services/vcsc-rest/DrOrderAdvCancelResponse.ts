@@ -8,7 +8,7 @@
 /**
  * Dr cancel adv order response schema
  */
-export interface DrCancelAdvOrderResponse {
+export interface DrOrderAdvCancelResponse {
   /**
    * Message
    */

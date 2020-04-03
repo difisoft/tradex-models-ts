@@ -269,8 +269,8 @@ import {
   DrOrderAdvCancelRequest,
 } from "./DrOrderAdvCancelRequest";
 import {
-  DrCancelAdvOrderResponse,
-} from "./DrCancelAdvOrderResponse";
+  DrOrderAdvCancelResponse,
+} from "./DrOrderAdvCancelResponse";
 import {
   DrOrderAdvHistoryRequest,
 } from "./DrOrderAdvHistoryRequest";
@@ -729,7 +729,7 @@ export {
   DrModifyNormalOrderRequest,
   DrModifyNormalOrderResponse,
   DrOrderAdvCancelRequest,
-  DrCancelAdvOrderResponse,
+  DrOrderAdvCancelResponse,
   DrOrderAdvHistoryRequest,
   DrOrderAdvHistoryResponse,
   DrOrderAdvPlaceRequest,

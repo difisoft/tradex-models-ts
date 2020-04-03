@@ -34,7 +34,7 @@ export type DrOrderAdvPlaceRequest = BaseRequest & {
   /**
    * Sell buy type
    */
-  sellBuyType: string;
+  sellBuyType: "BUY" | "SELL" | "ALL";
   /**
    * Account number
    */
