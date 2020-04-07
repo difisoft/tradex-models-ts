@@ -47,6 +47,12 @@ import {
   PutthroughDealResponse,
 } from "./PutthroughDealResponse";
 import {
+  StockRankingTopRequest,
+} from "./StockRankingTopRequest";
+import {
+  StockRankingTopResponse,
+} from "./StockRankingTopResponse";
+import {
   StockRankingTradeRequest,
 } from "./StockRankingTradeRequest";
 import {
@@ -166,6 +172,8 @@ export {
   PutthroughAdvertiseResponse,
   PutthroughDealRequest,
   PutthroughDealResponse,
+  StockRankingTopRequest,
+  StockRankingTopResponse,
   StockRankingTradeRequest,
   StockRankingTradeResponse,
   StockRankingUpDownRequest,

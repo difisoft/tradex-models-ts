@@ -8,27 +8,23 @@
 import {BaseRequest} from "../common";
 
 /**
- * stockRankingUpDownRequest schema
+ * stockRankingTopRequest schema
  */
-export type StockRankingUpDownRequest = BaseRequest & {
+export type StockRankingTopRequest = BaseRequest & {
   /**
    * market: ALL, HNX, HOSE, UPCOM, default ALL
    */
   marketType?: null | ("ALL" | "HNX" | "HOSE" | "UPCOM");
   /**
+   * sort type: POWER, CHANGE, RATE, TRADING_VALUE, TRADING_VOLUME, default TRADING_VOLUME
+   */
+  sortType?: null | ("POWER" | "CHANGE" | "RATE" | "TRADING_VALUE" | "TRADING_VOLUME");
+  /**
    * upDownType, default DOWN
    */
   upDownType?: null | ("UP" | "DOWN");
   /**
-   * fromDate (yyyyMMdd)
-   */
-  fromDate?: string | null;
-  /**
-   * toDate (yyyyMMdd)
-   */
-  toDate?: string | null;
-  /**
-   * offset
+   * offset, default 0
    */
   offset?: number | null;
   /**

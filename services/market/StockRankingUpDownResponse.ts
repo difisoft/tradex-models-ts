@@ -14,6 +14,10 @@ export interface StockRankingUpDownResponse {
    */
   HNX?: {
     /**
+     * marketType
+     */
+    mt?: string;
+    /**
      * code
      */
     cd?: string;
@@ -80,6 +84,10 @@ export interface StockRankingUpDownResponse {
    */
   HOSE?: {
     /**
+     * marketType
+     */
+    mt?: string;
+    /**
      * code
      */
     cd?: string;
@@ -145,6 +153,10 @@ export interface StockRankingUpDownResponse {
    * UPCOM
    */
   UPCOM?: {
+    /**
+     * marketType
+     */
+    mt?: string;
     /**
      * code
      */
