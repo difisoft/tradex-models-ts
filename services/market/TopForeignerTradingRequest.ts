@@ -24,7 +24,7 @@ export type TopForeignerTradingRequest = BaseRequest & {
    */
   offset?: number | null;
   /**
-   * The number of record that user want to see at each page
+   * The number of record that user want to see at each page, default = 10
    */
   fetchCount?: number | null;
   [k: string]: any;
