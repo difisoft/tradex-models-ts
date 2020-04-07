@@ -107,6 +107,12 @@ import {
   SymbolStaticInfoResponse,
 } from "./SymbolStaticInfoResponse";
 import {
+  TopForeignerTradingRequest,
+} from "./TopForeignerTradingRequest";
+import {
+  TopForeignerTradingResponse,
+} from "./TopForeignerTradingResponse";
+import {
   TradingViewDeleteChartRequest,
 } from "./TradingViewDeleteChartRequest";
 import {
@@ -192,6 +198,8 @@ export {
   SymbolQuoteTickResponse,
   SymbolStaticInfoRequest,
   SymbolStaticInfoResponse,
+  TopForeignerTradingRequest,
+  TopForeignerTradingResponse,
   TradingViewDeleteChartRequest,
   TradingViewDeleteChartResponse,
   TradingViewHistoryRequest,
