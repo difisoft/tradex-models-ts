@@ -14,9 +14,9 @@ export interface StockRankingTopResponse {
    */
   mt?: string;
   /**
-   * code
+   * symbol code
    */
-  cd?: string;
+  s?: string;
   /**
    * ceiling Floor Equal
    */
@@ -48,15 +48,15 @@ export interface StockRankingTopResponse {
   /**
    * rate
    */
-  r?: number;
+  ra?: number;
   /**
    * trading Volume
    */
-  tv?: number;
+  vo?: number;
   /**
    * trading Value
    */
-  tr?: number;
+  va?: number;
   /**
    * power indicator
    */
