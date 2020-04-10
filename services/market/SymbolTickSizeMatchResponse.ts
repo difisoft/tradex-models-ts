@@ -6,9 +6,9 @@
  */
 
 /**
- * stockOrderMatchingResponse schema
+ * symbolTickSizeMatchResponse schema
  */
-export interface StockOrderMatchingResponse {
+export interface SymbolTickSizeMatchResponse {
   /**
    * array list result
    */

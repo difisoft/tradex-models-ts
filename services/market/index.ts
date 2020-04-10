@@ -53,12 +53,6 @@ import {
   PutthroughDealResponse,
 } from "./PutthroughDealResponse";
 import {
-  StockOrderMatchingRequest,
-} from "./StockOrderMatchingRequest";
-import {
-  StockOrderMatchingResponse,
-} from "./StockOrderMatchingResponse";
-import {
   StockRankingTopRequest,
 } from "./StockRankingTopRequest";
 import {
@@ -124,6 +118,12 @@ import {
 import {
   SymbolStaticInfoResponse,
 } from "./SymbolStaticInfoResponse";
+import {
+  SymbolTickSizeMatchRequest,
+} from "./SymbolTickSizeMatchRequest";
+import {
+  SymbolTickSizeMatchResponse,
+} from "./SymbolTickSizeMatchResponse";
 import {
   TopForeignerTradingRequest,
 } from "./TopForeignerTradingRequest";
@@ -198,8 +198,6 @@ export {
   PutthroughAdvertiseResponse,
   PutthroughDealRequest,
   PutthroughDealResponse,
-  StockOrderMatchingRequest,
-  StockOrderMatchingResponse,
   StockRankingTopRequest,
   StockRankingTopResponse,
   StockRankingTradeRequest,
@@ -222,6 +220,8 @@ export {
   SymbolQuoteTickResponse,
   SymbolStaticInfoRequest,
   SymbolStaticInfoResponse,
+  SymbolTickSizeMatchRequest,
+  SymbolTickSizeMatchResponse,
   TopForeignerTradingRequest,
   TopForeignerTradingResponse,
   TradingViewDeleteChartRequest,
