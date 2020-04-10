@@ -6,11 +6,11 @@
  */
 
 /**
- * symbolDailyReturnsResponse schema
+ * marketLiquidityResponse schema
  */
-export interface SymbolDailyReturnsResponse {
+export interface MarketLiquidityResponse {
   /**
-   * properties name is symbol code
+   * properties name is date (YYYYMMDD), each item is an array contain 2 value, minute (string) and liquidity (number)
    */
-  [k: string]: number[];
+  [k: string]: [] | [string] | [string, number];
 }

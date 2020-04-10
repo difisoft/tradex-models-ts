@@ -29,6 +29,12 @@ import {
   IndexStockListResponse,
 } from "./IndexStockListResponse";
 import {
+  MarketLiquidityRequest,
+} from "./MarketLiquidityRequest";
+import {
+  MarketLiquidityResponse,
+} from "./MarketLiquidityResponse";
+import {
   MarketSessionStatusRequest,
 } from "./MarketSessionStatusRequest";
 import {
@@ -184,6 +190,8 @@ export {
   ForeignerDailyResponse,
   IndexStockListRequest,
   IndexStockListResponse,
+  MarketLiquidityRequest,
+  MarketLiquidityResponse,
   MarketSessionStatusRequest,
   MarketSessionStatusResponse,
   PutthroughAdvertiseRequest,
