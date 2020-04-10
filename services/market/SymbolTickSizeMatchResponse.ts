@@ -8,20 +8,14 @@
 /**
  * symbolTickSizeMatchResponse schema
  */
-export interface SymbolTickSizeMatchResponse {
+export type SymbolTickSizeMatchResponse = {
   /**
-   * array list result
+   * price
    */
-  data?: {
-    /**
-     * price
-     */
-    p?: number;
-    /**
-     * total matchingVolume
-     */
-    mv?: number;
-    [k: string]: any;
-  }[];
+  p?: number;
+  /**
+   * total matchingVolume
+   */
+  mv?: number;
   [k: string]: any;
-}
+}[];
