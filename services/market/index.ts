@@ -71,6 +71,9 @@ import {
   StockRankingUpDownResponse,
 } from "./StockRankingUpDownResponse";
 import {
+  SymbolDailyReturnsInitRequest,
+} from "./SymbolDailyReturnsInitRequest";
+import {
   SymbolDailyReturnsRequest,
 } from "./SymbolDailyReturnsRequest";
 import {
@@ -204,6 +207,7 @@ export {
   StockRankingTradeResponse,
   StockRankingUpDownRequest,
   StockRankingUpDownResponse,
+  SymbolDailyReturnsInitRequest,
   SymbolDailyReturnsRequest,
   SymbolDailyReturnsResponse,
   SymbolInfoRequest,
