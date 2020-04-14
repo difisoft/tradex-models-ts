@@ -5,6 +5,12 @@ import {
   FssOrderPlaceResponse,
 } from "./FssOrderPlaceResponse";
 import {
+  FssStopOrderCancelMultiRequest,
+} from "./FssStopOrderCancelMultiRequest";
+import {
+  FssStopOrderCancelMultiResponse,
+} from "./FssStopOrderCancelMultiResponse";
+import {
   FssStopOrderCancelRequest,
 } from "./FssStopOrderCancelRequest";
 import {
@@ -28,6 +34,12 @@ import {
 import {
   FssStopOrderPlaceResponse,
 } from "./FssStopOrderPlaceResponse";
+import {
+  StopOrderCancelMultiRequest,
+} from "./StopOrderCancelMultiRequest";
+import {
+  StopOrderCancelMultiResponse,
+} from "./StopOrderCancelMultiResponse";
 import {
   StopOrderHistoryRequest,
 } from "./StopOrderHistoryRequest";
@@ -65,6 +77,8 @@ import {
 export {
   FssOrderPlaceRequest,
   FssOrderPlaceResponse,
+  FssStopOrderCancelMultiRequest,
+  FssStopOrderCancelMultiResponse,
   FssStopOrderCancelRequest,
   FssStopOrderCancelResponse,
   FssStopOrderHistoryRequest,
@@ -73,6 +87,8 @@ export {
   FssStopOrderModifyResponse,
   FssStopOrderPlaceRequest,
   FssStopOrderPlaceResponse,
+  StopOrderCancelMultiRequest,
+  StopOrderCancelMultiResponse,
   StopOrderHistoryRequest,
   StopOrderHistoryResponse,
   StopOrderModifyRequest,
