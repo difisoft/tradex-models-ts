@@ -14,6 +14,6 @@ export type StopOrderCancelMultiRequest = BaseRequest & {
   /**
    * list order id to cancel
    */
-  orderIdList: string[];
+  orderIdList: number[];
   [k: string]: any;
 };

@@ -14,7 +14,7 @@ export type FssStopOrderCancelMultiRequest = BaseRequest & {
   /**
    * list order id to cancel
    */
-  orderIdList: string[];
+  orderIdList: number[];
   /**
    * optional. Use to protect sending duplicate (only for kb)
    */
