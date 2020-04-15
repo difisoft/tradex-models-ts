@@ -22,6 +22,14 @@ export interface MarketSessionStatusResponse {
    */
   time?: string;
   /**
+   * last trading date (YYYYMMDD)
+   */
+  lastTradingDate?: string;
+  /**
+   * previous trading date (YYYYMMDD)
+   */
+  previousTradingDate?: string;
+  /**
    * type: EQUITY, DERIVATIVES
    */
   type?: "EQUITY" | "DERIVATIVES";
