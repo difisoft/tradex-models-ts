@@ -42,6 +42,10 @@ export interface SymbolLatestResponse {
    */
   ep?: number;
   /**
+   * exercise price
+   */
+  exp?: number;
+  /**
    * change
    */
   ch?: number;
