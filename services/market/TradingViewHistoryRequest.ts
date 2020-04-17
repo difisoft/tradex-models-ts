@@ -14,7 +14,7 @@ export type TradingViewHistoryRequest = BaseRequest & {
   /**
    * symbol Code
    */
-  symbol?: string;
+  symbol: string;
   /**
    * from
    */
@@ -27,5 +27,13 @@ export type TradingViewHistoryRequest = BaseRequest & {
    * resolution
    */
   resolution: string;
+  /**
+   * Fetch count, default 300 for chart
+   */
+  fetchCount?: null | number;
+  /**
+   * date of last received record, in millisecond, like 1586933880, 10 number
+   */
+  lastTime?: null | number;
   [k: string]: any;
 };
