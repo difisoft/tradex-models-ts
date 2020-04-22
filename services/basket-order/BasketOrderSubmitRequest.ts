@@ -30,7 +30,16 @@ export type BasketOrderSubmitRequest = BaseRequest & {
   /**
    * price type
    */
-  priceType: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
+  priceType:
+    | "BEST_ASK_1"
+    | "BEST_ASK_2"
+    | "BEST_BID_1"
+    | "BEST_BID_2"
+    | "ATO"
+    | "ATC"
+    | "LO"
+    | "MARKET_PRICE"
+    | "ADVANCE";
   /**
    * rounding
    */
@@ -69,13 +78,30 @@ export type BasketOrderSubmitRequest = BaseRequest & {
        */
       quantity: number;
       /**
+       * volume
+       */
+      volume: number;
+      /**
        * price
        */
       price: number;
       /**
        * price type
        */
-      priceType: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
+      priceType:
+        | "BEST_ASK_1"
+        | "BEST_ASK_2"
+        | "BEST_BID_1"
+        | "BEST_BID_2"
+        | "ATO"
+        | "ATC"
+        | "LO"
+        | "MARKET_PRICE"
+        | "ADVANCE";
+      /**
+       * order type. Only use for priceType = ADVANCE)
+       */
+      orderType?: "ATO" | "ATC" | "LO" | "MP" | "MOK" | "MAK" | "MTL" | "PLO";
       /**
        * rounding
        */
@@ -100,13 +126,30 @@ export type BasketOrderSubmitRequest = BaseRequest & {
        */
       quantity: number;
       /**
+       * volume
+       */
+      volume: number;
+      /**
        * price
        */
       price: number;
       /**
        * price type
        */
-      priceType: "BEST_ASK_1" | "BEST_ASK_2" | "BEST_BID_1" | "BEST_BID_2" | "ATO" | "ATC" | "LO" | "MARKET_PRICE";
+      priceType:
+        | "BEST_ASK_1"
+        | "BEST_ASK_2"
+        | "BEST_BID_1"
+        | "BEST_BID_2"
+        | "ATO"
+        | "ATC"
+        | "LO"
+        | "MARKET_PRICE"
+        | "ADVANCE";
+      /**
+       * order type. Only use for priceType = ADVANCE)
+       */
+      orderType?: "ATO" | "ATC" | "LO" | "MP" | "MOK" | "MAK" | "MTL" | "PLO";
       /**
        * rounding
        */

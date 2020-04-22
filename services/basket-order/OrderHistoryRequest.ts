@@ -15,5 +15,37 @@ export type OrderHistoryRequest = BaseRequest & {
    * basket order id
    */
   basketOrderId: number;
+  /**
+   * symbol code
+   */
+  symbolCode?: string | null;
+  /**
+   * basket order name
+   */
+  basketOrderName?: string | null;
+  /**
+   * sell Buy Type
+   */
+  sellBuyType?: null | ("SELL" | "BUY");
+  /**
+   * order Status
+   */
+  orderStatus?: null | ("SENDING" | "PENDING" | "COMPLETED" | "CANCELLED" | "FAILED");
+  /**
+   * from Date (yyyyMMdd)
+   */
+  fromDate?: string | null;
+  /**
+   * to Date (yyyyMMdd)
+   */
+  toDate?: string | null;
+  /**
+   * next key, to query next (query these order has id < lastOrderId)
+   */
+  lastOrderId?: number | null;
+  /**
+   * The number of record that user want to see at each page
+   */
+  fetchCount?: number | null;
   [k: string]: any;
 };
