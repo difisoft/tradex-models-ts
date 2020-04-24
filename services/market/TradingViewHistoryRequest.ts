@@ -24,9 +24,9 @@ export type TradingViewHistoryRequest = BaseRequest & {
    */
   to: number;
   /**
-   * resolution, for minute: ['1','3','5','10','15','30','60'], for daily, 'D'
+   * resolution, for minute: ['1','3','5','10','15','30','60'], for daily, '1D', '1W', '1M', '6M'
    */
-  resolution: string;
+  resolution: "1" | "3" | "5" | "10" | "15" | "30" | "60" | "1D" | "1W" | "1M" | "6M";
   /**
    * Fetch count, default 300 for chart
    */
