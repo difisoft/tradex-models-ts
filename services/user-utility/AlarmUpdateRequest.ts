@@ -14,7 +14,7 @@ export type AlarmUpdateRequest = BaseRequest & {
   /**
    * id of alarm
    */
-  alarmId?: number;
+  alarmId: number;
   /**
    * when the price equal to this value, the alarm will be trigger
    */

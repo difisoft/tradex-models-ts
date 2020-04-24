@@ -14,6 +14,10 @@ export interface AlarmListResponse {
    */
   id: number;
   /**
+   * username
+   */
+  username: string;
+  /**
    * code of the alarm
    */
   code: string;

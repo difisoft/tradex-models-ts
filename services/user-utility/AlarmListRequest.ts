@@ -5,14 +5,19 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {RequestHeader} from "../common";
+import {BaseRequest} from "../common";
 
 /**
  * alarmListRequest schema
  */
-export interface AlarmListRequest {
-  headers?: RequestHeader;
-  sourceIp?: string;
-  deviceType?: null | string;
+export type AlarmListRequest = BaseRequest & {
+  /**
+   * next key, to query next (query these alarm has id < lastId)
+   */
+  lastId?: number | null;
+  /**
+   * The number of record that user want to see at each page, default 100
+   */
+  fetchCount?: number | null;
   [k: string]: any;
-}
+};

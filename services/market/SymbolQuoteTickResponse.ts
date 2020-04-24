@@ -10,9 +10,9 @@
  */
 export interface SymbolQuoteTickResponse {
   /**
-   * time (yyyyMMddhhmmss)
+   * time , in millisecond / 1000, like 1586933880, 10 number
    */
-  t?: string;
+  t?: number;
   /**
    * open price
    */
