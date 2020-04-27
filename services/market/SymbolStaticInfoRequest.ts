@@ -11,6 +11,17 @@ import {BaseRequest} from "../common";
  * symbolStaticInfoRequest schema
  */
 export type SymbolStaticInfoRequest = BaseRequest & {
+  /**
+   * list symbol to filter (default query all symbol)
+   */
   symbolList?: string[];
+  /**
+   * using for query next. (query symbol that has code < lastCode)
+   */
+  lastCode?: string;
+  /**
+   * The number of record that user want to see at each page, default 100
+   */
+  fetchCount?: number | null;
   [k: string]: any;
 };
