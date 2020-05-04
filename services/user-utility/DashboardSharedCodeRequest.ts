@@ -12,8 +12,14 @@ import {BaseRequest} from "../common";
  */
 export type DashboardSharedCodeRequest = BaseRequest & {
   /**
-   * dash board id
+   * json data of dashboard layout
    */
-  dashboardId: number;
+  data: {
+    [k: string]: any;
+  };
+  /**
+   * dashboard name
+   */
+  name: string;
   [k: string]: any;
 };
