@@ -41,11 +41,23 @@ import {
   DashboardDetailResponse,
 } from "./DashboardDetailResponse";
 import {
+  DashboardImportRequest,
+} from "./DashboardImportRequest";
+import {
+  DashboardImportResponse,
+} from "./DashboardImportResponse";
+import {
   DashboardListRequest,
 } from "./DashboardListRequest";
 import {
   DashboardListResponse,
 } from "./DashboardListResponse";
+import {
+  DashboardSharedCodeRequest,
+} from "./DashboardSharedCodeRequest";
+import {
+  DashboardSharedCodeResponse,
+} from "./DashboardSharedCodeResponse";
 import {
   DashboardUpdateRequest,
 } from "./DashboardUpdateRequest";
@@ -122,8 +134,12 @@ export {
   DashboardDeleteResponse,
   DashboardDetailRequest,
   DashboardDetailResponse,
+  DashboardImportRequest,
+  DashboardImportResponse,
   DashboardListRequest,
   DashboardListResponse,
+  DashboardSharedCodeRequest,
+  DashboardSharedCodeResponse,
   DashboardUpdateRequest,
   DashboardUpdateResponse,
   FavoriteListAddRequest,

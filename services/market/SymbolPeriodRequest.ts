@@ -16,9 +16,9 @@ export type SymbolPeriodRequest = BaseRequest & {
    */
   symbol: string;
   /**
-   * period type: daily/weekly/monthly
+   * period type: DAILY, WEEKLY, MONTHLY, SIX_MONTH
    */
-  periodType: null | ("DAILY" | "WEEKLY" | "MONTHLY");
+  periodType: null | ("DAILY" | "WEEKLY" | "MONTHLY" | "SIX_MONTH");
   /**
    * base date for query next (YYYYMMDD)
    */
