@@ -128,6 +128,12 @@ import {
   SymbolTickSizeMatchResponse,
 } from "./SymbolTickSizeMatchResponse";
 import {
+  TopAiRatingRequest,
+} from "./TopAiRatingRequest";
+import {
+  TopAiRatingResponse,
+} from "./TopAiRatingResponse";
+import {
   TopForeignerTradingRequest,
 } from "./TopForeignerTradingRequest";
 import {
@@ -226,6 +232,8 @@ export {
   SymbolStaticInfoResponse,
   SymbolTickSizeMatchRequest,
   SymbolTickSizeMatchResponse,
+  TopAiRatingRequest,
+  TopAiRatingResponse,
   TopForeignerTradingRequest,
   TopForeignerTradingResponse,
   TradingViewDeleteChartRequest,
