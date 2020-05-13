@@ -16,8 +16,12 @@ export type TopAiRatingRequest = BaseRequest & {
    */
   fetchCount?: number | null;
   /**
+   * last overall value from previous query
+   */
+  lastOverAll?: number | null;
+  /**
    * last code from previous query
    */
-  nextKey?: string | null;
+  lastCode?: string | null;
   [k: string]: any;
 };
