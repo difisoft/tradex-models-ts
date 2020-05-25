@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TradexModelsVcscRest = exports.TradexModelsUserUtility = exports.TradexModelsUser = exports.TradexModelsStrategy = exports.TradexModelsOrder = exports.TradexModelsMarket = exports.TradexModelsConfiguration = exports.TradexModelsBusinessInfo = exports.TradexModelsBasketOrder = exports.TradexModelsCommon = void 0;
+exports.TradexModelsVcscRest = exports.TradexModelsUserUtility = exports.TradexModelsUser = exports.TradexModelsStrategy = exports.TradexModelsOrder = exports.TradexModelsMarket = exports.TradexModelsConfiguration = exports.TradexModelsBusinessInfo = exports.TradexModelsBasketOrder = exports.TradexModelsAiAdvisor = exports.TradexModelsCommon = void 0;
 const TradexModelsCommon = require("./services/common");
 exports.TradexModelsCommon = TradexModelsCommon;
+const TradexModelsAiAdvisor = require("./services/ai-advisor");
+exports.TradexModelsAiAdvisor = TradexModelsAiAdvisor;
 const TradexModelsBasketOrder = require("./services/basket-order");
 exports.TradexModelsBasketOrder = TradexModelsBasketOrder;
 const TradexModelsBusinessInfo = require("./services/business-info");

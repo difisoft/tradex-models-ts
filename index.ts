@@ -1,6 +1,8 @@
 
 import * as TradexModelsCommon from './services/common';
             
+import * as TradexModelsAiAdvisor from './services/ai-advisor';
+            
 import * as TradexModelsBasketOrder from './services/basket-order';
             
 import * as TradexModelsBusinessInfo from './services/business-info';
@@ -23,6 +25,8 @@ import * as TradexModelsVcscRest from './services/vcsc-rest';
 export {
 
 TradexModelsCommon,
+            
+TradexModelsAiAdvisor,
             
 TradexModelsBasketOrder,
             
