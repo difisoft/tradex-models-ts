@@ -41,5 +41,9 @@ export interface ForeignerDailyResponse {
    * ForeignerHoldRatio
    */
   hr?: number;
+  /**
+   * date (YYYYMMDD)
+   */
+  d?: string;
   [k: string]: any;
 }
