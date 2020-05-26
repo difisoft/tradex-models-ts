@@ -8,38 +8,45 @@
 /**
  * newsListResponse schema
  */
-export type NewsListResponse = {
+export interface NewsListResponse {
+  list?: {
+    /**
+     * id of the news
+     */
+    id?: number;
+    /**
+     * title of the news
+     */
+    title?: string;
+    /**
+     * description of the news
+     */
+    description?: string;
+    /**
+     * slug of the news
+     */
+    slug?: string;
+    /**
+     * source of the news
+     */
+    source?: string;
+    /**
+     * sourceUrl of the news
+     */
+    sourceUrl?: string;
+    /**
+     * avatar of the news
+     */
+    avatar?: string;
+    /**
+     * news created at, YYYYMMDDhhmmss
+     */
+    createdAt?: string;
+    [k: string]: any;
+  }[];
   /**
-   * id of the news
+   * total records in db
    */
-  id?: number;
-  /**
-   * title of the news
-   */
-  title?: string;
-  /**
-   * description of the news
-   */
-  description?: string;
-  /**
-   * slug of the news
-   */
-  slug?: string;
-  /**
-   * source of the news
-   */
-  source?: string;
-  /**
-   * sourceUrl of the news
-   */
-  sourceUrl?: string;
-  /**
-   * avatar of the news
-   */
-  avatar?: string;
-  /**
-   * news created at, YYYYMMDDhhmmss
-   */
-  createdAt?: string;
+  count?: number;
   [k: string]: any;
-}[];
+}
