@@ -14,6 +14,10 @@ export interface ForeignerSummaryResponse {
    */
   s?: string;
   /**
+   * market type (HOSE/HNX/UPCOM)
+   */
+  m?: string;
+  /**
    * change
    */
   ch?: number;
