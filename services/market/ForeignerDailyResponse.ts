@@ -10,13 +10,29 @@
  */
 export interface ForeignerDailyResponse {
   /**
-   * ForeignerBuyVolume
+   * Foreigner buy volume
    */
-  bv?: number;
+  bvo?: number;
   /**
-   * ForeignerSellVolume
+   * Foreigner sell volume
    */
-  sv?: number;
+  svo?: number;
+  /**
+   * Foreigner net volume (ròng)
+   */
+  nvo?: number;
+  /**
+   * Foreigner buy value
+   */
+  bva?: number;
+  /**
+   * Foreigner sell value
+   */
+  sva?: number;
+  /**
+   * net value (ròng)
+   */
+  nva?: number;
   /**
    * ForeignerTotalRoom
    */

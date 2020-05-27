@@ -20,6 +20,14 @@ export type ForeignerDailyRequest = BaseRequest & {
    */
   fetchCount?: number | null;
   /**
+   * from date (yyyymmdd) - default 19700101
+   */
+  fromDate?: string | null;
+  /**
+   * to date (yyyymmdd) - default today
+   */
+  toDate?: string | null;
+  /**
    * base date foreigner next (yyyymmdd) && to query date < baseDate
    */
   baseDate?: string | null;
