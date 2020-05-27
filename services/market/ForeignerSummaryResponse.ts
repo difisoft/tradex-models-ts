@@ -26,6 +26,10 @@ export interface ForeignerSummaryResponse {
    */
   ra?: number;
   /**
+   * close price
+   */
+  c?: number;
+  /**
    * Foreigner buy volume
    */
   bvo?: number;
