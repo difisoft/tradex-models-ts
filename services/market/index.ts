@@ -23,6 +23,12 @@ import {
   ForeignerDailyResponse,
 } from "./ForeignerDailyResponse";
 import {
+  ForeignerSummaryRequest,
+} from "./ForeignerSummaryRequest";
+import {
+  ForeignerSummaryResponse,
+} from "./ForeignerSummaryResponse";
+import {
   IndexStockListRequest,
 } from "./IndexStockListRequest";
 import {
@@ -197,6 +203,8 @@ export {
   FixSecurityListQueryResponse,
   ForeignerDailyRequest,
   ForeignerDailyResponse,
+  ForeignerSummaryRequest,
+  ForeignerSummaryResponse,
   IndexStockListRequest,
   IndexStockListResponse,
   MarketLiquidityRequest,
