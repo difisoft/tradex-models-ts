@@ -149,6 +149,14 @@ export interface SymbolLatestResponse {
      * unChange count
      */
     uc?: number;
+    /**
+     * trade count
+     */
+    tc?: number;
+    /**
+     * unTrade count
+     */
+    utc?: number;
     [k: string]: any;
   };
   /**
@@ -163,6 +171,14 @@ export interface SymbolLatestResponse {
      * sell volume
      */
     sv?: number;
+    /**
+     * net buy value
+     */
+    nva?: number;
+    /**
+     * net buy volume
+     */
+    nvo?: number;
     /**
      * total room
      */
