@@ -44,6 +44,12 @@ import {
   AccountChangePasswordResponse,
 } from "./AccountChangePasswordResponse";
 import {
+  AccountCheckNationalIdRequest,
+} from "./AccountCheckNationalIdRequest";
+import {
+  AccountCheckNationalIdResponse,
+} from "./AccountCheckNationalIdResponse";
+import {
   AccountInfoRequest,
 } from "./AccountInfoRequest";
 import {
@@ -67,6 +73,12 @@ import {
 import {
   AccountProfitLossResponse,
 } from "./AccountProfitLossResponse";
+import {
+  AccountRegisterRequest,
+} from "./AccountRegisterRequest";
+import {
+  AccountRegisterResponse,
+} from "./AccountRegisterResponse";
 import {
   AccountSellableRequest,
 } from "./AccountSellableRequest";
@@ -654,6 +666,8 @@ export {
   AccountChangeHtsPasswordResponse,
   AccountChangePasswordRequest,
   AccountChangePasswordResponse,
+  AccountCheckNationalIdRequest,
+  AccountCheckNationalIdResponse,
   AccountInfoRequest,
   AccountInfoResponse,
   AccountLoanHistoryRequest,
@@ -662,6 +676,8 @@ export {
   AccountMobileResponse,
   AccountProfitLossRequest,
   AccountProfitLossResponse,
+  AccountRegisterRequest,
+  AccountRegisterResponse,
   AccountSellableRequest,
   AccountSellableResponse,
   AccountStockBalanceHistoryRequest,
