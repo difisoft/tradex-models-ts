@@ -20,7 +20,7 @@ export type AccountRegisterRequest = BaseRequest & {
    */
   issueDate: string;
   /**
-   * branch, [CA_TP_HN-CP TP Hà Nội, CA_TP_HCM-CA TP HCM]
+   * issue place, [CA_TP_HN-CA TP Hà Nội, CA_TP_HCM-CA TP HCM]
    */
   issuePlace: "CA_TP_HN" | "CA_TP_HCM";
   /**
@@ -151,15 +151,15 @@ export type AccountRegisterRequest = BaseRequest & {
   /**
    * low risk
    */
-  risk1?: number;
+  riskRt1?: number;
   /**
    * mid risk
    */
-  risk2?: number;
+  riskRt2?: number;
   /**
    * high risk
    */
-  risk3?: number;
+  riskRt3?: number;
   /**
    * total risk
    */
