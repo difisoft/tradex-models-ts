@@ -134,6 +134,12 @@ import {
   BankAccountResponse,
 } from "./BankAccountResponse";
 import {
+  CountryCodeListRequest,
+} from "./CountryCodeListRequest";
+import {
+  CountryCodeListReponse,
+} from "./CountryCodeListReponse";
+import {
   DrAccountBalanceRequest,
 } from "./DrAccountBalanceRequest";
 import {
@@ -696,6 +702,8 @@ export {
   Bank,
   BankAccountRequest,
   BankAccountResponse,
+  CountryCodeListRequest,
+  CountryCodeListReponse,
   DrAccountBalanceRequest,
   DrAccountBalanceResponse,
   DrAccountEquityRequest,
