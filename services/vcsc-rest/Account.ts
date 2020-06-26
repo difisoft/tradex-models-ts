@@ -12,7 +12,7 @@ import {AccountSub} from "./AccountSub";
  */
 export interface Account {
   accountNumber?: string;
-  subNumber?: string;
+  accountName?: string;
   accountSubs?: {
     [k: string]: AccountSub;
   }[];

@@ -8,41 +8,34 @@
 /**
  * diaryListResponse schema
  */
-export interface DiaryListResponse {
-  list?: {
-    /**
-     * id of the diary
-     */
-    id?: number;
-    /**
-     * title of the diary
-     */
-    title?: string;
-    /**
-     * description of the diary
-     */
-    description?: string;
-    /**
-     * slug of the diary
-     */
-    slug?: string;
-    /**
-     * avatar of the diary
-     */
-    avatar?: string;
-    /**
-     * author of the diary
-     */
-    author?: string;
-    /**
-     * diary created at, YYYYMMDDhhmmss
-     */
-    createdAt?: string;
-    [k: string]: any;
-  }[];
+export type DiaryListResponse = {
   /**
-   * total records in db
+   * id of the diary
    */
-  count?: number;
+  id?: number;
+  /**
+   * title of the diary
+   */
+  title?: string;
+  /**
+   * description of the diary
+   */
+  description?: string;
+  /**
+   * slug of the diary
+   */
+  slug?: string;
+  /**
+   * avatar of the diary
+   */
+  avatar?: string;
+  /**
+   * author of the diary
+   */
+  author?: string;
+  /**
+   * diary created at, YYYYMMDDhhmmss
+   */
+  createdAt?: string;
   [k: string]: any;
-}
+}[];

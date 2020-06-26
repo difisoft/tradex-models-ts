@@ -35,6 +35,24 @@ import {
   FssStopOrderPlaceResponse,
 } from "./FssStopOrderPlaceResponse";
 import {
+  FssTrailingOrderCancelRequest,
+} from "./FssTrailingOrderCancelRequest";
+import {
+  FssTrailingOrderCancelResponse,
+} from "./FssTrailingOrderCancelResponse";
+import {
+  FssTrailingOrderHistoryRequest,
+} from "./FssTrailingOrderHistoryRequest";
+import {
+  FssTrailingOrderHistoryResponse,
+} from "./FssTrailingOrderHistoryResponse";
+import {
+  FssTrailingOrderPlaceRequest,
+} from "./FssTrailingOrderPlaceRequest";
+import {
+  FssTrailingOrderPlaceResponse,
+} from "./FssTrailingOrderPlaceResponse";
+import {
   StopOrderCancelMultiRequest,
 } from "./StopOrderCancelMultiRequest";
 import {
@@ -87,6 +105,12 @@ export {
   FssStopOrderModifyResponse,
   FssStopOrderPlaceRequest,
   FssStopOrderPlaceResponse,
+  FssTrailingOrderCancelRequest,
+  FssTrailingOrderCancelResponse,
+  FssTrailingOrderHistoryRequest,
+  FssTrailingOrderHistoryResponse,
+  FssTrailingOrderPlaceRequest,
+  FssTrailingOrderPlaceResponse,
   StopOrderCancelMultiRequest,
   StopOrderCancelMultiResponse,
   StopOrderHistoryRequest,

@@ -6,12 +6,8 @@
  */
 
 /**
- * Check national id request schema
+ * fssTrailingOrderCancelResponse schema
  */
-export type AccountCheckNationalIdRequest = {
-  /**
-   * identifier number
-   */
-  nationalId: string;
+export interface FssTrailingOrderCancelResponse {
   [k: string]: any;
-};
+}

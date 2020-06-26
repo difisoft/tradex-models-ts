@@ -16,7 +16,7 @@ export interface AuthenResponse {
   /**
    * otp index
    */
-  optIndex?: string;
+  otpIndex?: string;
   /**
    * session id (or JSESSIONID)
    */

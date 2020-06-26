@@ -5,9 +5,9 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * query list country code request schema
  */
-export type CountryCodeListRequest = BaseRequest;
+export interface CountryCodeListRequest {
+  [k: string]: any;
+}

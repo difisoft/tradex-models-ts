@@ -6,12 +6,12 @@
  */
 
 /**
- * Check national id request schema
+ * fssTrailingOrderPlaceResponse schema
  */
-export type AccountCheckNationalIdRequest = {
+export interface FssTrailingOrderPlaceResponse {
   /**
-   * identifier number
+   * id of the trailingOrder that just been created
    */
-  nationalId: string;
+  trailingOrderId?: number;
   [k: string]: any;
-};
+}

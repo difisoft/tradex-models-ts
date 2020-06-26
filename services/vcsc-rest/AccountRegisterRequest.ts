@@ -5,12 +5,10 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "../common";
-
 /**
  * Account register request schema
  */
-export type AccountRegisterRequest = BaseRequest & {
+export type AccountRegisterRequest = {
   /**
    * visit date, format (YYYYMMDD)
    */
@@ -24,7 +22,7 @@ export type AccountRegisterRequest = BaseRequest & {
    */
   issuePlace: "CA_TP_HN" | "CA_TP_HCM";
   /**
-   * national 001-201
+   * national 001-201 (get from api /account/countryCodeList)
    */
   national: string;
   /**
