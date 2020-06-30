@@ -34,13 +34,13 @@ export interface FssTrailingOrderHistoryResponse {
    */
   limitOffset?: number;
   /**
-   * order price
+   * current price
    */
   currentPrice?: number;
   /**
-   * order price
+   * stop price
    */
-  activePrice?: number;
+  stopPrice?: number;
   /**
    * order number
    */
