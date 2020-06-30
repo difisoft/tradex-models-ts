@@ -18,7 +18,7 @@ export type FssTrailingOrderPlaceRequest = BaseRequest & {
   /**
    * symbol code
    */
-  symbol: string;
+  code: string;
   /**
    * quantity
    */

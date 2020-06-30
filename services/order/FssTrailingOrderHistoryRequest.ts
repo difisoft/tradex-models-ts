@@ -18,7 +18,7 @@ export type FssTrailingOrderHistoryRequest = BaseRequest & {
   /**
    * query filter by 1 symbol code
    */
-  symbol?: null | string;
+  code?: null | string;
   /**
    * query filter by buy or sell type
    */
