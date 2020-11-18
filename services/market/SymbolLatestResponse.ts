@@ -50,6 +50,10 @@ export interface SymbolLatestResponse {
    */
   exr?: number;
   /**
+   * expected volume
+   */
+  exv?: number;
+  /**
    * exercise price
    */
   exp?: number;

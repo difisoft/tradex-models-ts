@@ -112,7 +112,7 @@ export type BasketOrderSubmitRequest = BaseRequest & {
       sellBuyType: "SELL" | "BUY";
       [k: string]: any;
     },
-    ...{
+    ...({
       /**
        * symbol code
        */
@@ -159,7 +159,7 @@ export type BasketOrderSubmitRequest = BaseRequest & {
        */
       sellBuyType: "SELL" | "BUY";
       [k: string]: any;
-    }[]
+    })[]
   ];
   [k: string]: any;
 };
