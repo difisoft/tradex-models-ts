@@ -35,6 +35,9 @@ import {
   IndexStockListResponse,
 } from "./IndexStockListResponse";
 import {
+  LastTradingDateResponse,
+} from "./LastTradingDateResponse";
+import {
   MarketLiquidityRequest,
 } from "./MarketLiquidityRequest";
 import {
@@ -207,6 +210,7 @@ export {
   ForeignerSummaryResponse,
   IndexStockListRequest,
   IndexStockListResponse,
+  LastTradingDateResponse,
   MarketLiquidityRequest,
   MarketLiquidityResponse,
   MarketSessionStatusRequest,
