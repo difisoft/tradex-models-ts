@@ -201,5 +201,13 @@ export interface SymbolLatestResponse {
     cr?: number;
     [k: string]: any;
   };
+  /**
+   * break even
+   */
+  be?: number;
+  /**
+   * % premium
+   */
+  pe?: number;
   [k: string]: any;
 }
