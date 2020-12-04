@@ -44,6 +44,9 @@ import {
   LoginMethodResponse,
 } from "./LoginMethodResponse";
 import {
+  LoginMethodStepResponse,
+} from "./LoginMethodStepResponse";
+import {
   Menu,
 } from "./Menu";
 import {
@@ -243,6 +246,7 @@ export {
   HolidayListResponse,
   LocaleKey,
   LoginMethodResponse,
+  LoginMethodStepResponse,
   Menu,
   OpenApiDeleteRequest,
   OpenApiDeleteResponse,

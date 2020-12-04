@@ -5,6 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {LoginMethodStepResponse} from "./LoginMethodStepResponse";
+
 /**
  * request for query list of holiday
  */
@@ -37,5 +39,9 @@ export interface LoginMethodResponse {
    * scope group ids belong to this login methods
    */
   scopeGroupIds?: number[];
+  /**
+   * mediate steps
+   */
+  steps?: LoginMethodStepResponse[];
   [k: string]: any;
 }
